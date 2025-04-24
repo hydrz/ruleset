@@ -56,11 +56,10 @@ walk "$rules_dir"
 # 复制README.md文件
 cp "$src_dir/rule/Clash/README.md" $readme
 
+# 替换README.md文件中的链接地址
 src_prefix="https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/"
-dest_prefix="https://github.com/hydrz/clash-config/tree/main/template/ruleset/"
+dest_prefix="https://github.com/hydrz/ruleset/tree/main/clash/"
 # 正则替换README.md文件中的链接地址，结尾添加 .list
-sed -i.bak \
-    -e "s|${src_prefix}\([^)]\+\)|${dest_prefix}\1.list|g" \
-    $readme && rm $readme.bak
+sed -i.bak "s|${src_prefix}\([^)]*\)|${dest_prefix}\1.list|g" $readme && rm $readme.bak
 
 echo "规则同步完成！请检查 $readme"
