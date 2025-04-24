@@ -1,0 +1,30 @@
+name: Sync
+
+on:
+    workflow_dispatch:
+    schedule:
+        - cron: '0 3 3 * *' # Every 3rd day at 03:00 UTC
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Sync
+        run: |
+            bash sync_rules.sh
+      - name: Convert to SRS
+        run: |
+            bash convert_to_srs.sh
+      - name: Make Some Difference
+        run: |
+            echo "$(date '+%Y-%m-%d %H:%M:%S')" > .timestamp
+      - name: Commit Changes
+        run: |
+            git config core.ignorecase false
+            git config --local user.email "action@github.com"
+            git config --local user.name "GitHub Action"
+            git add .
+            git commit -m "Updated at $(date '+%Y-%m-%d %H:%M:%S')"
+            git push
