@@ -3,7 +3,7 @@ ruleset and scripts
 
 # 规则集
 
-[分流说明](ruleset/README.md)
+[分流说明](RULESET.md)
 
 **我们并不生产规则，我们只是开源规则的搬运工。**
 
@@ -17,6 +17,6 @@ ruleset and scripts
 
 # 感谢
 
-[@blackmatrix7]([https://](https://github.com/blackmatrix7))
+[@blackmatrix7](https://github.com/blackmatrix7)
 
 [@SagerNet](https://github.com/SagerNet)
