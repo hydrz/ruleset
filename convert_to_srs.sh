@@ -189,92 +189,79 @@ process_all_files() {
     total_files=${#list_files[@]}
     log_info "找到 $total_files 个文件需要处理"
 
-    # 初始化计数器
+    # 初始化计数器和共享文件
     processed=0
     failed=0
+    echo "$processed" >"$TMP_DIR/processed_count"
+
+    # 创建一个空的失败文件列表
+    touch "$TMP_DIR/failed_files"
 
     # 定义处理跟踪函数
     update_progress() {
-        processed=$((processed + 1))
-        local percent=$((100 * processed / total_files))
-        printf "\r处理进度: %d/%d (%d%%)" "$processed" "$total_files" "$percent"
+        local curr_processed=$(cat "$TMP_DIR/processed_count" 2>/dev/null || echo 0)
+        local percent=$((100 * curr_processed / total_files))
+        printf "\r处理进度: %d/%d (%d%%)" "$curr_processed" "$total_files" "$percent"
     }
 
-    # 检查是否有 GNU Parallel 可用
-    if command -v parallel &>/dev/null; then
-        log_info "使用 GNU Parallel 进行并行处理"
+    # 使用控制变量跟踪运行中的作业
+    local running=0
+    local pids=()
 
-        # 临时文件用于收集失败的文件
-        local temp_failed="$TMP_DIR/failed_files"
-        touch "$temp_failed"
-
-        # 导出函数以便子进程使用
-        export -f process_list_file
-        export -f log_info log_success log_warning log_error
-        export SINGBOX OUTPUT_DIR RED GREEN YELLOW BLUE NC
-
-        parallel --bar --jobs "$max_jobs" \
-            "if ! process_list_file {}; then echo {} >> $temp_failed; fi" \
-            ::: "${list_files[@]}"
-
-        # 检查处理失败的文件
-        if [[ -s "$temp_failed" ]]; then
-            mapfile -t failed_files <"$temp_failed"
-            failed=${#failed_files[@]}
-        fi
-    else
-        # 如果 GNU Parallel 不可用，使用自定义并行逻辑
-        log_info "未检测到 GNU Parallel，使用内置并行逻辑"
-
-        # 使用控制变量跟踪运行中的作业
-        local running=0
-        local pids=()
-
-        for file in "${list_files[@]}"; do
-            # 当达到最大作业数时，等待任一子进程结束
-            while [[ $running -ge $max_jobs ]]; do
-                local alive_pids=()
-                for pid in "${pids[@]}"; do
-                    if kill -0 "$pid" 2>/dev/null; then
-                        alive_pids+=("$pid")
-                    fi
-                done
-                pids=("${alive_pids[@]}")
-                running=${#pids[@]}
-
-                [[ $running -ge $max_jobs ]] && sleep 0.1
-            done
-
-            # 启动新的后台作业
-            (
-                if ! process_list_file "$file"; then
-                    echo "$file" >>"$TMP_DIR/failed_$processed"
+    for file in "${list_files[@]}"; do
+        # 当达到最大作业数时，等待任一子进程结束
+        while [[ $running -ge $max_jobs ]]; do
+            local alive_pids=()
+            for pid in "${pids[@]}"; do
+                if kill -0 "$pid" 2>/dev/null; then
+                    alive_pids+=("$pid")
+                else
+                    # 收集已完成的进程的退出状态
+                    wait "$pid" 2>/dev/null || true
                 fi
-            ) &
+            done
+            pids=("${alive_pids[@]}")
+            running=${#pids[@]}
 
-            # 存储 PID 和更新运行中的作业计数
-            pids+=($!)
-            running=$((running + 1))
+            [[ $running -ge $max_jobs ]] && sleep 0.1
 
             # 更新进度
             update_progress
         done
 
-        # 等待所有后台作业完成
-        for pid in "${pids[@]}"; do
-            wait "$pid" || true
-        done
-
-        # 收集失败的文件
-        for i in $(seq 0 $((total_files - 1))); do
-            if [[ -f "$TMP_DIR/failed_$i" ]]; then
-                failed_files+=("$(cat "$TMP_DIR/failed_$i")")
+        # 启动新的后台作业
+        (
+            if ! process_list_file "$file"; then
+                # 原子方式添加到失败文件列表
+                flock -x "$TMP_DIR/failed_files.lock" -c "echo \"$file\" >> \"$TMP_DIR/failed_files\""
             fi
-        done
-        failed=${#failed_files[@]}
 
-        echo # 添加换行以便更好的显示最终结果
+            # 原子方式更新处理计数
+            flock -x "$TMP_DIR/processed_count.lock" -c "echo \$((1 + \$(cat \"$TMP_DIR/processed_count\"))) > \"$TMP_DIR/processed_count\""
+        ) &
+
+        # 存储 PID 和更新运行中的作业计数
+        pids+=($!)
+        running=${#pids[@]}
+    done
+
+    # 等待所有后台作业完成并清理
+    for pid in "${pids[@]}"; do
+        wait "$pid" 2>/dev/null || true
+    done
+
+    # 获取最终进度
+    processed=$(cat "$TMP_DIR/processed_count" 2>/dev/null || echo 0)
+
+    # 读取失败的文件列表
+    if [[ -f "$TMP_DIR/failed_files" ]]; then
+        mapfile -t failed_files <"$TMP_DIR/failed_files"
+        failed=${#failed_files[@]}
+    else
+        failed=0
     fi
+
+    echo # 添加换行以便更好的显示最终结果
 
     # 显示处理结果
     log_info "所有文件处理完成"
