@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "rules": [
+
+    {
+      "domain_suffix": [
+        "178.com",
+        "nga.cn",
+        "ngabbs.com",
+        "ngacn.cc"
+      ]
+    }
+  ]
+}

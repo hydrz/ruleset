@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "rules": [
+
+    {
+      "domain_suffix": [
+        "gitbook.com",
+        "gitbook.io",
+        "gitbook.zendesk.com"
+      ]
+    }
+  ]
+}

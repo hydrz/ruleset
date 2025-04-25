@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "rules": [
+
+    {
+      "domain_suffix": [
+        "mail.icloud.com.cn",
+        "mail.me.com"
+      ]
+    }
+  ]
+}
