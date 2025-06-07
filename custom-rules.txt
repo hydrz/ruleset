@@ -1,0 +1,44 @@
+# =====================================
+# 自定义规则配置文件
+# =====================================
+#
+# 规则格式：<文件路径> <操作> <规则内容>
+#
+# 文件路径：
+#   - 支持相对路径（相对于clash目录）
+#   - 自动添加.list后缀（如果没有）
+#   - 示例: HongKong, Telegram.list
+#
+# 操作类型：
+#   + : 添加规则到文件
+#   - : 从文件中删除规则
+#
+# 规则内容：
+#   必须是有效的Clash规则格式
+#   支持的类型: DOMAIN, DOMAIN-SUFFIX, DOMAIN-KEYWORD, IP-CIDR, IP-CIDR6, GEOIP, DST-PORT, SRC-PORT, PROCESS-NAME, RULE-SET
+#
+# 示例：
+#   HongKong.list + DOMAIN-SUFFIX,example.hk
+#   Telegram.list - DOMAIN-SUFFIX,t.me
+#   Apple.list + IP-CIDR,17.0.0.0/8
+#
+# =====================================
+
+# 香港地区规则补充
+HongKong.list + DOMAIN-SUFFIX,.hk
+
+# Telegram规则自定义
+# Telegram.list + DOMAIN-SUFFIX,telegram.org
+# Telegram.list + DOMAIN-SUFFIX,telegra.ph
+
+# Apple服务规则调整
+# Apple.list + DOMAIN-SUFFIX,apple.com.cn
+# Apple.list - DOMAIN-SUFFIX,old-service.apple.com
+
+# 自定义代理规则
+# Proxy.list + DOMAIN-SUFFIX,example-proxy.com
+# Proxy.list + DOMAIN-KEYWORD,proxy
+
+# 直连规则补充
+# Direct.list + DOMAIN-SUFFIX,local-service.com
+# Direct.list + IP-CIDR,192.168.0.0/16

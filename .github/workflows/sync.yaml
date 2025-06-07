@@ -1,0 +1,42 @@
+name: Sync
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 3 */7 * *" # Runs at 03:00, every 7 days
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Cache ios_rule_script
+        uses: actions/cache@v4
+        with:
+          path: ios_rule_script
+          key: ios_rule_script-${{ hashFiles('sync_rules.sh') }}
+          restore-keys: |
+            ios_rule_script-
+
+      - name: Sync
+        run: |
+          bash sync_rules.sh
+
+      - name: Convert to sing-box
+        run: |
+          bash convert_to_singbox.
+
+      - name: Make Some Difference
+        run: |
+          echo "$(date '+%Y-%m-%d %H:%M:%S')" > .timestamp
+
+      - name: Commit Changes
+        run: |
+          git config core.ignorecase false
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "Updated at $(date '+%Y-%m-%d %H:%M:%S')"
+          git push
