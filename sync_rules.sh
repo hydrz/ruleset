@@ -107,12 +107,20 @@ copy_rules() {
     # 清理旧文件
     find "$DEST_DIR" -name "*.list" -delete 2>/dev/null || true
 
-    # 高效平铺复制，保留时间戳
+    # 获取 CPU 核心数，设置合理的并行数
+    local cpu_cores=$(sysctl -n hw.ncpu 2>/dev/null || nproc 2>/dev/null || echo 4)
+    local parallel_jobs=$((cpu_cores > 8 ? 8 : cpu_cores))
+
+    # 并行复制，每个进程处理多个文件
     find "$RULES_DIR" -name "*.list" -type f -print0 |
-        xargs -0 -I{} cp -p "{}" "$DEST_DIR/"
+        xargs -0 -n 10 -P "$parallel_jobs" sh -c '
+            for file do
+                [[ -f "$file" ]] && cp -p "$file" "$1/$(basename "$file")"
+            done
+        ' _ "$DEST_DIR"
 
     TOTAL_RULES_COPIED=$(find "$DEST_DIR" -name "*.list" 2>/dev/null | wc -l)
-    log_success "复制 $TOTAL_RULES_COPIED 个文件"
+    log_success "复制 $TOTAL_RULES_COPIED 个文件（并行度: $parallel_jobs）"
 }
 
 # 验证规则格式
@@ -137,10 +145,14 @@ apply_custom_rules() {
         return 0
     fi
 
+
     log_info "应用自定义规则..."
+
     local modified=0 total=0 errors=0
 
-    while IFS= read -r line; do
+
+    # 确保读取最后一行（即使没有换行符）
+    while IFS= read -r line || [[ -n "$line" ]]; do
         # 跳过注释和空行
         if [[ "$line" =~ ^[[:space:]]*# ]] || [[ -z "${line// /}" ]]; then
             continue
@@ -173,8 +185,16 @@ apply_custom_rules() {
 
             case "$operation" in
             +)
+                log_info "添加规则: $rule_content 到 $full_path"
                 if ! grep -q "^$escaped_rule$" "$full_path" 2>/dev/null; then
-                    echo "$rule_content" >>"$full_path" 2>/dev/null && ((modified++))
+                    if echo "$rule_content" >>"$full_path" 2>/dev/null; then
+                        ((modified++))
+                        log_success "规则添加成功"
+                    else
+                        log_error "规则添加失败"
+                    fi
+                else
+                    log_warning "规则已存在，跳过"
                 fi
                 ;;
             -)

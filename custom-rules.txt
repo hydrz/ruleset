@@ -24,9 +24,6 @@
 #
 # =====================================
 
-# 香港地区规则补充
-HongKong.list + DOMAIN-SUFFIX,.hk
-
 # Telegram规则自定义
 # Telegram.list + DOMAIN-SUFFIX,telegram.org
 # Telegram.list + DOMAIN-SUFFIX,telegra.ph
@@ -42,3 +39,6 @@ HongKong.list + DOMAIN-SUFFIX,.hk
 # 直连规则补充
 # Direct.list + DOMAIN-SUFFIX,local-service.com
 # Direct.list + IP-CIDR,192.168.0.0/16
+
+HongKong.list + DOMAIN-SUFFIX,.hk
+Copilot.list + DOMAIN-SUFFIX,githubcopilot.com
