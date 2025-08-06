@@ -26,7 +26,7 @@ jobs:
 
       - name: Convert to sing-box
         run: |
-          bash convert_to_singbox.
+          bash convert_to_singbox.sh
 
       - name: Make Some Difference
         run: |
