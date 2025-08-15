@@ -115,7 +115,8 @@ copy_rules() {
     find "$RULES_DIR" -name "*.list" -type f -print0 |
         xargs -0 -n 10 -P "$parallel_jobs" sh -c '
             for file do
-                [[ -f "$file" ]] && cp -p "$file" "$1/$(basename "$file")"
+                # Use POSIX test for file existence
+                [ -f "$file" ] && cp -p "$file" "$1/$(basename "$file")"
             done
         ' _ "$DEST_DIR"
 
