@@ -4,17 +4,33 @@ readonly SCRIPT_PATH=$(cd "$(dirname "$0")" && pwd)
 readonly RULESET_DIR="$SCRIPT_PATH/clash"
 readonly OUTPUT_DIR="$SCRIPT_PATH/singbox"
 
-# 颜色和日志
+# Colors and logging
 readonly RED='\033[0;31m' GREEN='\033[0;32m' YELLOW='\033[0;33m' BLUE='\033[0;34m' NC='\033[0m'
 log_info() { echo -e "${BLUE}[INFO]${NC} $*"; }
 log_success() { echo -e "${GREEN}[SUCCESS]${NC} $*"; }
 log_warning() { echo -e "${YELLOW}[WARNING]${NC} $*"; }
 log_error() { echo -e "${RED}[ERROR]${NC} $*"; }
 
-# 创建输出目录
+# Create output directory
 mkdir -p "$OUTPUT_DIR"
 
-# 规则文件处理
+# Safe integer validation and conversion
+validate_integer() {
+    local value="$1"
+    local default="${2:-0}"
+
+    # Remove any whitespace and newlines
+    value=$(echo "$value" | tr -d '[:space:]')
+
+    # Check if it's a valid integer
+    if [[ "$value" =~ ^[0-9]+$ ]]; then
+        echo "$value"
+    else
+        echo "$default"
+    fi
+}
+
+# Process rule files
 process_file() {
     local file="$1"
     local name=$(basename "$file" .list)
@@ -22,22 +38,21 @@ process_file() {
 
     [[ ! -f "$file" ]] && return 1
 
-    # 如果目标文件存在且源文件未更新，则跳过
+    # Skip if target file exists and source file is not updated
     if [[ -f "$json_file" && "$file" -ot "$json_file" ]]; then
-        echo "未修改，跳过 $file"
         return 0
     fi
 
-    # 检查是否有有效规则
+    # Check if there are valid rules
     if ! grep -q '^[A-Z]' "$file" 2>/dev/null; then
         local empty_content='{"version":2,"rules":[]}'
         echo "$empty_content" >"$json_file"
         return 0
     fi
 
-    # AWK脚本生成JSON内容
+    # AWK script to generate JSON content
     local json_content
-    json_content=$(awk -F',' '
+    json_content=$(timeout 30 awk -F',' '
         /^[[:space:]]*#/ || /^[[:space:]]*$/ { next }
         /^DOMAIN-SUFFIX,/ { ds[++dsc] = $2; next }
         /^DOMAIN,/ { d[++dc] = $2; next }
@@ -68,7 +83,7 @@ process_file() {
 
             print "    {"
 
-            # 构建字段数组
+            # Build field arrays
             fields = 0
 
             if (dsc > 0) {
@@ -134,7 +149,7 @@ process_file() {
                 for(i=1; i<=src_port_rangec; i++) field_values[fields,i] = src_port_range[i]
             }
 
-            # 输出字段
+            # Output fields
             for(f=1; f<=fields; f++) {
                 if (f > 1) print ","
                 printf "      \"%s\": [", field_names[f]
@@ -158,22 +173,31 @@ process_file() {
             print "    }"
             print "  ]"
             print "}"
-        }' "$file")
+        }' "$file" 2>/dev/null)
 
-    # 验证JSON格式
+    # Validate JSON format
     if [[ -z "$json_content" ]]; then
         return 1
     fi
 
-    # 写入新内容
+    # Write new content
     echo "$json_content" >"$json_file"
     return 0
 }
 
-# 进度显示函数
+# Progress display function with safe numeric handling
 show_progress() {
     local current="$1"
     local total="$2"
+
+    # Validate and clean input parameters
+    current=$(validate_integer "$current" 0)
+    total=$(validate_integer "$total" 1)
+
+    if ((total == 0)); then
+        return 1
+    fi
+
     local width=50
     local percentage=$((current * 100 / total))
     local filled=$((current * width / total))
@@ -185,20 +209,22 @@ show_progress() {
     printf "] %d/%d (%d%%)" "$current" "$total" "$percentage"
 }
 
-# 并行处理
-process_worker() {
+# Safe numeric read function
+read_counter() {
     local file="$1"
+    local default_value="${2:-0}"
 
-    if process_file "$file"; then
-        echo "SUCCESS"
+    if [[ -f "$file" ]]; then
+        local value
+        value=$(cat "$file" 2>/dev/null)
+        validate_integer "$value" "$default_value"
     else
-        echo "FAILED"
+        echo "$default_value"
     fi
 }
 
-# 主处理函数
+# Improved parallel processing with better error handling
 process_all() {
-    # 增加并行度
     local max_jobs=8
     if command -v nproc >/dev/null 2>&1; then
         max_jobs=$(($(nproc) * 2))
@@ -206,11 +232,11 @@ process_all() {
         max_jobs=$(($(sysctl -n hw.ncpu 2>/dev/null || echo 4) * 2))
     fi
 
-    # 限制最大并行数
+    # Limit max parallel jobs
     ((max_jobs > 16)) && max_jobs=16
     ((max_jobs < 4)) && max_jobs=4
 
-    # 文件列表收集
+    # Collect file list
     local files=()
     while IFS= read -r -d '' file; do
         files+=("$file")
@@ -224,69 +250,136 @@ process_all() {
 
     log_info "处理 $total 个文件 (并行度: $max_jobs)"
 
-    # 导出函数供子进程使用
-    export -f process_file
-    export OUTPUT_DIR
+    # Create temporary directory for progress tracking
+    local temp_dir
+    temp_dir=$(mktemp -d) || {
+        log_error "无法创建临时目录"
+        return 1
+    }
 
-    # 创建命名管道用于进度跟踪
-    local progress_pipe=$(mktemp -u)
-    mkfifo "$progress_pipe"
+    local progress_file="$temp_dir/progress"
+    local result_file="$temp_dir/results"
 
-    # 捕获中断信号，确保子进程和管道被清理
+    # Initialize counters with proper validation
+    echo "0" > "$progress_file" || {
+        log_error "无法初始化进度文件"
+        rm -rf "$temp_dir"
+        return 1
+    }
+    touch "$result_file"
+
+    # Cleanup function
     cleanup() {
-        [[ -n "$progress_pid" ]] && kill "$progress_pid" 2>/dev/null
-        rm -f "$progress_pipe"
+        # Kill all child processes
+        local job_pids
+        job_pids=$(jobs -p 2>/dev/null)
+        if [[ -n "$job_pids" ]]; then
+            echo "$job_pids" | xargs -r kill 2>/dev/null
+        fi
+        wait 2>/dev/null
+        rm -rf "$temp_dir"
+        echo # Newline after progress bar
         exit 1
     }
     trap cleanup INT TERM
 
-    # 后台进度监控
-    (
-        local count=0
-        while IFS= read -r line; do
-            ((count++))
-            show_progress "$count" "$total"
-        done <"$progress_pipe"
-        echo # 换行
-    ) &
-    local progress_pid=$!
+    # Process files with progress tracking
+    local pids=()
 
-    # 使用xargs并行处理并收集结果
-    local results
-    results=$(printf '%s\0' "${files[@]}" | xargs -0 -P "$max_jobs" -I {} bash -c '
-        result="FAILED"
-        if process_file "$1"; then
-            result="SUCCESS"
+    for file in "${files[@]}"; do
+        # Wait if we've reached the max number of jobs
+        while ((${#pids[@]} >= max_jobs)); do
+            for i in "${!pids[@]}"; do
+                if ! kill -0 "${pids[i]}" 2>/dev/null; then
+                    wait "${pids[i]}" 2>/dev/null
+                    unset "pids[i]"
+                fi
+            done
+            pids=("${pids[@]}") # Reindex array
+            sleep 0.05
+        done
+
+        # Start new job
+        (
+            local result="FAILED"
+            if process_file "$file"; then
+                result="SUCCESS"
+            fi
+
+            # Atomic progress update with error handling
+            (
+                if flock -x -w 5 200; then
+                    local current
+                    current=$(read_counter "$progress_file" 0)
+                    echo $((current + 1)) > "$progress_file"
+                    echo "$result" >> "$result_file"
+                fi
+            ) 200>"$progress_file.lock" 2>/dev/null
+        ) &
+
+        pids+=($!)
+    done
+
+    # Monitor progress with improved error handling
+    local last_progress=0
+    while ((${#pids[@]} > 0)); do
+        # Check for completed jobs
+        for i in "${!pids[@]}"; do
+            if ! kill -0 "${pids[i]}" 2>/dev/null; then
+                wait "${pids[i]}" 2>/dev/null
+                unset "pids[i]"
+            fi
+        done
+        pids=("${pids[@]}") # Reindex array
+
+        # Update progress display with safe numeric handling
+        local current
+        current=$(read_counter "$progress_file" 0)
+        if ((current != last_progress && current <= total)); then
+            show_progress "$current" "$total"
+            last_progress=$current
         fi
-        echo "PROGRESS" > "'"$progress_pipe"'"
-        echo "$result"
-    ' _ {})
 
-    # 关闭进度管道
-    exec 3>"$progress_pipe"
-    exec 3>&-
-    wait "$progress_pid" 2>/dev/null
-    rm -f "$progress_pipe"
-    trap - INT TERM
+        sleep 0.1
+    done
 
-    # 统计结果
-    local success=0
-    local failed=0
-    local skipped=0
-    if [[ -n "$results" ]]; then
-        success=$(echo "$results" | grep -c "SUCCESS" 2>/dev/null)
-        [[ -z "$success" ]] && success=0
-        failed=$(echo "$results" | grep -c "FAILED" 2>/dev/null)
-        [[ -z "$failed" ]] && failed=0
-        skipped=$((total - success - failed))
+    # Final progress update
+    show_progress "$total" "$total"
+    echo # Newline after progress bar
+
+    # Calculate statistics with safe counting and validation
+    local success_raw failed_raw
+    if [[ -f "$result_file" ]]; then
+        success_raw=$(grep -c "SUCCESS" "$result_file" 2>/dev/null || echo "0")
+        failed_raw=$(grep -c "FAILED" "$result_file" 2>/dev/null || echo "0")
+    else
+        success_raw="0"
+        failed_raw="0"
     fi
+
+    # Validate and sanitize all numeric values
+    local success failed skipped
+    success=$(validate_integer "$success_raw" 0)
+    failed=$(validate_integer "$failed_raw" 0)
+
+    # Safe calculation of skipped files
+    local processed=$((success + failed))
+    if ((processed <= total)); then
+        skipped=$((total - processed))
+    else
+        skipped=0
+    fi
+
+    # Cleanup
+    rm -rf "$temp_dir"
+    trap - INT TERM
 
     log_success "完成: $success/$total"
     ((failed > 0)) && log_warning "失败: $failed 个"
     ((skipped > 0)) && log_info "跳过: $skipped 个 (内容未变化)"
 }
 
-# 主函数
+# Main function
 main() {
     printf "%s\n%s\n%s\n" "==================================================" "  转换为sing-box规则 $(date '+%H:%M:%S')" "=================================================="
 
