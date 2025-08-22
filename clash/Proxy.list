@@ -1,13 +1,13 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-08-14 02:10:55
+# UPDATED: 2025-08-22 02:08:20
 # DOMAIN: 9
 # DOMAIN-KEYWORD: 26
-# DOMAIN-SUFFIX: 6479
+# DOMAIN-SUFFIX: 6491
 # IP-CIDR: 93
 # IP-CIDR6: 4
-# TOTAL: 6611
+# TOTAL: 6623
 DOMAIN,api.waqi.info
 DOMAIN,aqi.aqicn.org
 DOMAIN,assets-priconne-redive-us.akamaized.net
@@ -603,6 +603,7 @@ DOMAIN-SUFFIX,bestvpnusa.com
 DOMAIN-SUFFIX,bet365.com
 DOMAIN-SUFFIX,betaclouds.net
 DOMAIN-SUFFIX,betfair.com
+DOMAIN-SUFFIX,betterhash.net
 DOMAIN-SUFFIX,betternet.co
 DOMAIN-SUFFIX,bettervpn.com
 DOMAIN-SUFFIX,bettween.com
@@ -1374,6 +1375,7 @@ DOMAIN-SUFFIX,delicious.com
 DOMAIN-SUFFIX,demo.opera-mini.net
 DOMAIN-SUFFIX,democrats.org
 DOMAIN-SUFFIX,demosisto.hk
+DOMAIN-SUFFIX,deno.dev
 DOMAIN-SUFFIX,depositphotos.com
 DOMAIN-SUFFIX,derekhsu.homeip.net
 DOMAIN-SUFFIX,desc.se
@@ -1457,6 +1459,7 @@ DOMAIN-SUFFIX,docker.com
 DOMAIN-SUFFIX,docker.io
 DOMAIN-SUFFIX,dockerhub.com
 DOMAIN-SUFFIX,docs.cfw.lbyczf.com
+DOMAIN-SUFFIX,docs.deno.com
 DOMAIN-SUFFIX,docs.new
 DOMAIN-SUFFIX,doctorvoice.org
 DOMAIN-SUFFIX,documentingreality.com
@@ -2056,6 +2059,7 @@ DOMAIN-SUFFIX,furbo.org
 DOMAIN-SUFFIX,furhhdl.org
 DOMAIN-SUFFIX,furinkan.com
 DOMAIN-SUFFIX,furl.net
+DOMAIN-SUFFIX,furrybar.com
 DOMAIN-SUFFIX,futurechinaforum.org
 DOMAIN-SUFFIX,futuremessage.org
 DOMAIN-SUFFIX,fux.com
@@ -2430,6 +2434,7 @@ DOMAIN-SUFFIX,here.com
 DOMAIN-SUFFIX,heritage.org
 DOMAIN-SUFFIX,heroku.com
 DOMAIN-SUFFIX,herokuapp.com
+DOMAIN-SUFFIX,herominers.com
 DOMAIN-SUFFIX,heungkongdiscuss.com
 DOMAIN-SUFFIX,hexieshe.com
 DOMAIN-SUFFIX,hexieshe.xyz
@@ -2864,6 +2869,7 @@ DOMAIN-SUFFIX,itaboo.info
 DOMAIN-SUFFIX,itaiwan.gov.tw
 DOMAIN-SUFFIX,italiatibet.org
 DOMAIN-SUFFIX,itasoftware.com
+DOMAIN-SUFFIX,itch.io
 DOMAIN-SUFFIX,itemdb.com
 DOMAIN-SUFFIX,itemfix.com
 DOMAIN-SUFFIX,itgonglun.com
@@ -3721,6 +3727,7 @@ DOMAIN-SUFFIX,nationalreview.com
 DOMAIN-SUFFIX,nationsonline.org
 DOMAIN-SUFFIX,nationwide.com
 DOMAIN-SUFFIX,naughtyamerica.com
+DOMAIN-SUFFIX,naver.com
 DOMAIN-SUFFIX,naver.jp
 DOMAIN-SUFFIX,navy.mil
 DOMAIN-SUFFIX,naweeklytimes.com
@@ -4094,6 +4101,7 @@ DOMAIN-SUFFIX,paldengyal.com
 DOMAIN-SUFFIX,paljorpublications.com
 DOMAIN-SUFFIX,palmislife.com
 DOMAIN-SUFFIX,paltalk.com
+DOMAIN-SUFFIX,pancakeswap.finance
 DOMAIN-SUFFIX,pandafan.pub
 DOMAIN-SUFFIX,pandapow.co
 DOMAIN-SUFFIX,pandapow.net
@@ -4169,6 +4177,7 @@ DOMAIN-SUFFIX,periscope.tv
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,persecutionblog.com
 DOMAIN-SUFFIX,persiankitty.com
+DOMAIN-SUFFIX,pewresearch.org
 DOMAIN-SUFFIX,pfd.org.hk
 DOMAIN-SUFFIX,phapluan.org
 DOMAIN-SUFFIX,phayul.com
@@ -4312,6 +4321,7 @@ DOMAIN-SUFFIX,prism-break.org
 DOMAIN-SUFFIX,prisoneralert.com
 DOMAIN-SUFFIX,pritunl.com
 DOMAIN-SUFFIX,privacybox.de
+DOMAIN-SUFFIX,privacyguides.org
 DOMAIN-SUFFIX,private.com
 DOMAIN-SUFFIX,privateinternetaccess.com
 DOMAIN-SUFFIX,privatepaste.com
@@ -5076,6 +5086,7 @@ DOMAIN-SUFFIX,surrenderat20.net
 DOMAIN-SUFFIX,suyangg.com
 DOMAIN-SUFFIX,svsfx.com
 DOMAIN-SUFFIX,swagbucks.com
+DOMAIN-SUFFIX,swapspace.co
 DOMAIN-SUFFIX,swissinfo.ch
 DOMAIN-SUFFIX,swissvpn.net
 DOMAIN-SUFFIX,switch1.jp
@@ -5691,6 +5702,7 @@ DOMAIN-SUFFIX,udn.com
 DOMAIN-SUFFIX,udn.com.tw
 DOMAIN-SUFFIX,udnbkk.com
 DOMAIN-SUFFIX,udndata.com
+DOMAIN-SUFFIX,udomain.hk
 DOMAIN-SUFFIX,uforadio.com.tw
 DOMAIN-SUFFIX,ufreevpn.com
 DOMAIN-SUFFIX,ugo.com

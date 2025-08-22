@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-08-14 02:10:35
+# UPDATED: 2025-08-22 02:07:58
 # DOMAIN: 110
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 31569
+# DOMAIN-SUFFIX: 31581
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # PROCESS-NAME: 1
-# TOTAL: 31832
+# TOTAL: 31844
 DOMAIN,1password.drift.click
 DOMAIN,adobeereg.com
 DOMAIN,angle.com.tw
@@ -9565,6 +9565,7 @@ DOMAIN-SUFFIX,ggjav.com
 DOMAIN-SUFFIX,ggoogle.com
 DOMAIN-SUFFIX,ggpds.com
 DOMAIN-SUFFIX,ggsrv.com
+DOMAIN-SUFFIX,gh.io
 DOMAIN-SUFFIX,ghbi.ir
 DOMAIN-SUFFIX,ghettotube.com
 DOMAIN-SUFFIX,ghil.ac.uk
@@ -12389,7 +12390,6 @@ DOMAIN-SUFFIX,itaeromanga.com
 DOMAIN-SUFFIX,italiabeatsbydrdre.com
 DOMAIN-SUFFIX,itcanwait.com
 DOMAIN-SUFFIX,itcfonts.com
-DOMAIN-SUFFIX,itch.io
 DOMAIN-SUFFIX,itch.zone
 DOMAIN-SUFFIX,itchen.ac.uk
 DOMAIN-SUFFIX,iteach.ac.uk
@@ -12965,6 +12965,7 @@ DOMAIN-SUFFIX,keepmovingwithmovefree.com
 DOMAIN-SUFFIX,keepyourcad.com
 DOMAIN-SUFFIX,keiba.net
 DOMAIN-SUFFIX,keighleycollege.ac.uk
+DOMAIN-SUFFIX,kemono.cr
 DOMAIN-SUFFIX,kemono.party
 DOMAIN-SUFFIX,kemono.su
 DOMAIN-SUFFIX,kendal.ac.uk
@@ -15577,6 +15578,7 @@ DOMAIN-SUFFIX,mypearson.com
 DOMAIN-SUFFIX,mypearsonenglish.ch
 DOMAIN-SUFFIX,mypearsonshop.com.mx
 DOMAIN-SUFFIX,mypearsonshop.mx
+DOMAIN-SUFFIX,mypikpak.net
 DOMAIN-SUFFIX,myplace.ac.uk
 DOMAIN-SUFFIX,mypornads.com
 DOMAIN-SUFFIX,mypornadviser.com
@@ -15733,7 +15735,6 @@ DOMAIN-SUFFIX,naughtymag.com
 DOMAIN-SUFFIX,naughtysophie.com
 DOMAIN-SUFFIX,naughtytugs.com
 DOMAIN-SUFFIX,naughtywomenpics.com
-DOMAIN-SUFFIX,naver.com
 DOMAIN-SUFFIX,naver.me
 DOMAIN-SUFFIX,naver.net
 DOMAIN-SUFFIX,naverads.com
@@ -25849,6 +25850,7 @@ DOMAIN-SUFFIX,bestvpnusa.com
 DOMAIN-SUFFIX,bet365.com
 DOMAIN-SUFFIX,betaclouds.net
 DOMAIN-SUFFIX,betfair.com
+DOMAIN-SUFFIX,betterhash.net
 DOMAIN-SUFFIX,betternet.co
 DOMAIN-SUFFIX,bettervpn.com
 DOMAIN-SUFFIX,bettween.com
@@ -26603,6 +26605,7 @@ DOMAIN-SUFFIX,delcamp.net
 DOMAIN-SUFFIX,delicious.com
 DOMAIN-SUFFIX,democrats.org
 DOMAIN-SUFFIX,demosisto.hk
+DOMAIN-SUFFIX,deno.dev
 DOMAIN-SUFFIX,depositphotos.com
 DOMAIN-SUFFIX,desc.se
 DOMAIN-SUFFIX,desipro.de
@@ -27280,6 +27283,7 @@ DOMAIN-SUFFIX,furbo.org
 DOMAIN-SUFFIX,furhhdl.org
 DOMAIN-SUFFIX,furinkan.com
 DOMAIN-SUFFIX,furl.net
+DOMAIN-SUFFIX,furrybar.com
 DOMAIN-SUFFIX,futurechinaforum.org
 DOMAIN-SUFFIX,futuremessage.org
 DOMAIN-SUFFIX,fux.com
@@ -27652,6 +27656,7 @@ DOMAIN-SUFFIX,here.com
 DOMAIN-SUFFIX,heritage.org
 DOMAIN-SUFFIX,heroku.com
 DOMAIN-SUFFIX,herokuapp.com
+DOMAIN-SUFFIX,herominers.com
 DOMAIN-SUFFIX,heungkongdiscuss.com
 DOMAIN-SUFFIX,hexieshe.com
 DOMAIN-SUFFIX,hexieshe.xyz
@@ -28083,6 +28088,7 @@ DOMAIN-SUFFIX,itaboo.info
 DOMAIN-SUFFIX,itaiwan.gov.tw
 DOMAIN-SUFFIX,italiatibet.org
 DOMAIN-SUFFIX,itasoftware.com
+DOMAIN-SUFFIX,itch.io
 DOMAIN-SUFFIX,itemdb.com
 DOMAIN-SUFFIX,itemfix.com
 DOMAIN-SUFFIX,itgonglun.com
@@ -28936,6 +28942,7 @@ DOMAIN-SUFFIX,nationalreview.com
 DOMAIN-SUFFIX,nationsonline.org
 DOMAIN-SUFFIX,nationwide.com
 DOMAIN-SUFFIX,naughtyamerica.com
+DOMAIN-SUFFIX,naver.com
 DOMAIN-SUFFIX,naver.jp
 DOMAIN-SUFFIX,navy.mil
 DOMAIN-SUFFIX,naweeklytimes.com
@@ -29306,6 +29313,7 @@ DOMAIN-SUFFIX,paldengyal.com
 DOMAIN-SUFFIX,paljorpublications.com
 DOMAIN-SUFFIX,palmislife.com
 DOMAIN-SUFFIX,paltalk.com
+DOMAIN-SUFFIX,pancakeswap.finance
 DOMAIN-SUFFIX,pandafan.pub
 DOMAIN-SUFFIX,pandapow.co
 DOMAIN-SUFFIX,pandapow.net
@@ -29381,6 +29389,7 @@ DOMAIN-SUFFIX,periscope.tv
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,persecutionblog.com
 DOMAIN-SUFFIX,persiankitty.com
+DOMAIN-SUFFIX,pewresearch.org
 DOMAIN-SUFFIX,pfd.org.hk
 DOMAIN-SUFFIX,phapluan.org
 DOMAIN-SUFFIX,phayul.com
@@ -29524,6 +29533,7 @@ DOMAIN-SUFFIX,prism-break.org
 DOMAIN-SUFFIX,prisoneralert.com
 DOMAIN-SUFFIX,pritunl.com
 DOMAIN-SUFFIX,privacybox.de
+DOMAIN-SUFFIX,privacyguides.org
 DOMAIN-SUFFIX,private.com
 DOMAIN-SUFFIX,privateinternetaccess.com
 DOMAIN-SUFFIX,privatepaste.com
@@ -30283,6 +30293,7 @@ DOMAIN-SUFFIX,surrenderat20.net
 DOMAIN-SUFFIX,suyangg.com
 DOMAIN-SUFFIX,svsfx.com
 DOMAIN-SUFFIX,swagbucks.com
+DOMAIN-SUFFIX,swapspace.co
 DOMAIN-SUFFIX,swissinfo.ch
 DOMAIN-SUFFIX,swissvpn.net
 DOMAIN-SUFFIX,switch1.jp
@@ -30894,6 +30905,7 @@ DOMAIN-SUFFIX,udn.com
 DOMAIN-SUFFIX,udn.com.tw
 DOMAIN-SUFFIX,udnbkk.com
 DOMAIN-SUFFIX,udndata.com
+DOMAIN-SUFFIX,udomain.hk
 DOMAIN-SUFFIX,uforadio.com.tw
 DOMAIN-SUFFIX,ufreevpn.com
 DOMAIN-SUFFIX,ugo.com
