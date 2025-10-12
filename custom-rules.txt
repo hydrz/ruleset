@@ -44,3 +44,6 @@ HongKong.list + DOMAIN-SUFFIX,.hk
 Copilot.list + DOMAIN-SUFFIX,githubcopilot.com
 
 Jsdelivr.list + DOMAIN-SUFFIX,globalping.io
+
+Salad.list + DOMAIN-SUFFIX,.salad.io
+Salad.list + DOMAIN-SUFFIX,.salad.com
