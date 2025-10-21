@@ -47,3 +47,9 @@ Jsdelivr.list + DOMAIN-SUFFIX,globalping.io
 
 Salad.list + DOMAIN-SUFFIX,.salad.io
 Salad.list + DOMAIN-SUFFIX,.salad.com
+
+Tailscale.list + DOMAIN-SUFFIX,.tailscale.com
+Tailscale.list + IP-CIDR,192.200.0.0/24
+Tailscale.list + IP-CIDR,2606:B740:49::/48
+Tailscale.list + IP-CIDR,199.165.136.0/24
+Tailscale.list + IP-CIDR,2606:B740:1::/48
