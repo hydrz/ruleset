@@ -1,5 +1,5 @@
 # Custom rules for Tailscale
-# Generated at 2025-11-08 03:19:38
+# Generated at 2025-11-15 03:22:07
 
 DOMAIN-SUFFIX,.tailscale.com
 IP-CIDR,192.200.0.0/24
