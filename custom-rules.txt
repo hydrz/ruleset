@@ -40,6 +40,19 @@
 # Direct.list + DOMAIN-SUFFIX,local-service.com
 # Direct.list + IP-CIDR,192.168.0.0/16
 
+ChinaDNS.list + IP-CIDR,223.5.5.5/32
+ChinaDNS.list + IP-CIDR,223.6.6.6/32
+ChinaDNS.list + IP-CIDR6,2400:3200::1/128
+ChinaDNS.list + IP-CIDR6,2400:3200:baba::1/128
+ChinaDNS.list + IP-CIDR,119.29.29.29/32
+ChinaDNS.list + IP-CIDR,183.60.82.98/32
+ChinaDNS.list + IP-CIDR6,2402:4e00::/128
+ChinaDNS.list + IP-CIDR6,2402:4e00:1::/128
+ChinaDNS.list + IP-CIDR,101.226.4.6/32
+ChinaDNS.list + IP-CIDR,218.30.118.6/32
+ChinaDNS.list + IP-CIDR,123.125.81.6/32
+ChinaDNS.list + IP-CIDR,140.207.198.6/32
+
 HongKong.list + DOMAIN-SUFFIX,.hk
 Copilot.list + DOMAIN-SUFFIX,githubcopilot.com
 
