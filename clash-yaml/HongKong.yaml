@@ -1,0 +1,4 @@
+# Custom rules for HongKong
+# Generated at 2025-12-16 12:02:55
+payload:
+  - DOMAIN-SUFFIX,.hk

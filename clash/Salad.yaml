@@ -1,5 +1,0 @@
-# Custom rules for Salad
-# Generated at 2025-12-15 03:34:32
-payload:
-  - DOMAIN-SUFFIX,.salad.io
-  - DOMAIN-SUFFIX,.salad.com

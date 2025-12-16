@@ -19,6 +19,7 @@ esac
 readonly SRC_DIR="$SCRIPT_PATH/ios_rule_script"
 readonly RULES_DIR="$SRC_DIR/rule/Clash"
 readonly DEST_DIR="$SCRIPT_PATH/clash"
+readonly DEST_YAML_DIR="$SCRIPT_PATH/clash-yaml"
 readonly CUSTOM_RULES_FILE="$SCRIPT_PATH/custom-rules.txt"
 readonly README="$SCRIPT_PATH/RULESET.md"
 readonly REPO_URL="https://github.com/blackmatrix7/ios_rule_script.git"
@@ -117,10 +118,11 @@ update_repository() {
 copy_rules() {
     log_info "同步规则文件..."
     mkdir -p "$DEST_DIR" 2>/dev/null || true
+	mkdir -p "$DEST_YAML_DIR" 2>/dev/null || true
 
     # 清理旧文件
     find "$DEST_DIR" -name "*.list" -delete 2>/dev/null || true
-    find "$DEST_DIR" -name "*.yaml" -delete 2>/dev/null || true
+    find "$DEST_YAML_DIR" -name "*.yaml" -delete 2>/dev/null || true
 
     # 获取 CPU 核心数，设置合理的并行数
     local cpu_cores=$(sysctl -n hw.ncpu 2>/dev/null || nproc 2>/dev/null || echo 4)
@@ -133,17 +135,17 @@ copy_rules() {
                 [ -f "$file" ] && cp -p "$file" "$1/$(basename "$file")"
             done
         ' _ "$DEST_DIR"
-    find "$RULES_DIR" -name "*.yaml" -type f -print0 |
-        xargs -0 -n 10 -P "$parallel_jobs" sh -c '
-            for file do
-                [ -f "$file" ] && cp -p "$file" "$1/$(basename "$file")"
-            done
-        ' _ "$DEST_DIR"
+	find "$RULES_DIR" -name "*.yaml" -type f -print0 |
+		xargs -0 -n 10 -P "$parallel_jobs" sh -c '
+			for file do
+				[ -f "$file" ] && cp -p "$file" "$1/$(basename "$file")"
+			done
+		' _ "$DEST_YAML_DIR"
 
-    TOTAL_RULES_COPIED=$(find "$DEST_DIR" -name "*.list" 2>/dev/null | wc -l)
-    local yaml_count=$(find "$DEST_DIR" -name "*.yaml" 2>/dev/null | wc -l)
+    local list_count=$(find "$DEST_DIR" -name "*.list" 2>/dev/null | wc -l)
+    local yaml_count=$(find "$DEST_YAML_DIR" -name "*.yaml" 2>/dev/null | wc -l)
     # 使用默认值防止在 set -u 下未绑定变量导致脚本退出
-    log_success "复制 $TOTAL_RULES_COPIED 个 .list 文件, $yaml_count 个 .yaml 文件（并行度: ${parallel_jobs:-1}）"
+    log_success "复制 $list_count 个 .list 文件, $yaml_count 个 .yaml 文件（并行度: ${parallel_jobs:-1}）"
 }
 
 # 验证规则格式
@@ -153,16 +155,9 @@ validate_rule() {
 
 # 标准化路径：支持 .list 或 .yaml
 normalize_path() {
-    local path="${1#$DEST_DIR/}"
-    path="${path#./}"
-    if [[ "$path" =~ \.yaml$ ]]; then
-        echo "$path"
-        return
-    fi
-    if [[ ! "$path" =~ \.list$ ]]; then
-        path="$path.list"
-    fi
-    echo "$path"
+	local base_name="${1##*/}"
+	base_name="${base_name%.*}"
+	echo "$base_name"
 }
 
 # 处理自定义规则（增强：同时作用于 .yaml 和 .list，支持 _No_Resolve 变体）
@@ -221,9 +216,8 @@ apply_custom_rules() {
 
             # 对每个 target 处理 .yaml 与 .list
             for tgt in $targets; do
-                # YAML 目标
-                local target_yaml="$DEST_DIR/${tgt}.yaml"
                 local target_list="$DEST_DIR/${tgt}.list"
+                local target_yaml="$DEST_YAML_DIR/${tgt}.yaml"
 
                 # 确保目录存在
                 mkdir -p "$(dirname "$target_yaml")" 2>/dev/null || true
