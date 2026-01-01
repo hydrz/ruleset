@@ -1,14 +1,15 @@
 # NAME: PrivateTracker
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-12-28 02:09:08
-# DOMAIN: 127
+# UPDATED: 2026-01-01 02:09:22
+# DOMAIN: 123
 # DOMAIN-KEYWORD: 4
 # DOMAIN-SUFFIX: 123
 # IP-CIDR: 4
-# TOTAL: 258
+# TOTAL: 254
 payload:
   - DOMAIN,1337.abcvg.info
+  - DOMAIN,6ahddutb1ucc3cp.ru
   - DOMAIN,aboutbeautifulgallopinghorsesinthegreenpasture.online
   - DOMAIN,admin.52ywp.com
   - DOMAIN,anna.bt.bontal.net
@@ -17,11 +18,13 @@ payload:
   - DOMAIN,bt.bontal.net
   - DOMAIN,bt.okmp3.ru
   - DOMAIN,bt.rer.lol
+  - DOMAIN,burmese.app
   - DOMAIN,bvarf.tracker.sh
   - DOMAIN,cny.fan
   - DOMAIN,concen.org
   - DOMAIN,d40969.acod.regrucolo.ru
   - DOMAIN,echostar.ddnsfree.com
+  - DOMAIN,evan.im
   - DOMAIN,exodus.desync.com
   - DOMAIN,explodie.org
   - DOMAIN,extracker.dahrkael.net
@@ -52,7 +55,6 @@ payload:
   - DOMAIN,shahidrazi.online
   - DOMAIN,t.213891.xyz
   - DOMAIN,t.overflow.biz
-  - DOMAIN,tk.greedland.net
   - DOMAIN,torrent.tracker.durukanbal.com
   - DOMAIN,torrentclub.online
   - DOMAIN,torrentsmd.com
@@ -66,12 +68,13 @@ payload:
   - DOMAIN,tracker-udp.gbitt.info
   - DOMAIN,tracker.0x7c0.com
   - DOMAIN,tracker.1h.is
+  - DOMAIN,tracker.23794.top
   - DOMAIN,tracker.alaskantf.com
   - DOMAIN,tracker.beeimg.com
   - DOMAIN,tracker.bittor.pw
+  - DOMAIN,tracker.bluefrog.pw
   - DOMAIN,tracker.breizh.pm
   - DOMAIN,tracker.bt4g.com
-  - DOMAIN,tracker.cloudbase.store
   - DOMAIN,tracker.cutie.dating
   - DOMAIN,tracker.cyberia.is
   - DOMAIN,tracker.darkness.services
@@ -103,11 +106,8 @@ payload:
   - DOMAIN,tracker.pmman.tech
   - DOMAIN,tracker.qu.ax
   - DOMAIN,tracker.renfei.net
-  - DOMAIN,tracker.skillindia.site
-  - DOMAIN,tracker.skynetcloud.site
   - DOMAIN,tracker.skyts.net
   - DOMAIN,tracker.srv00.com
-  - DOMAIN,tracker.startwork.cv
   - DOMAIN,tracker.t-1.org
   - DOMAIN,tracker.therarbg.to
   - DOMAIN,tracker.torrent.eu.org
@@ -118,9 +118,7 @@ payload:
   - DOMAIN,tracker.tvunderground.org.ru
   - DOMAIN,tracker.uraniumhexafluori.de
   - DOMAIN,tracker.waaa.moe
-  - DOMAIN,tracker.yemekyedim.com
   - DOMAIN,tracker.zhuqiy.com
-  - DOMAIN,tracker.zupix.online
   - DOMAIN,tracker1.520.jp
   - DOMAIN,tracker1.t-1.org
   - DOMAIN,tracker2.dler.org
@@ -130,11 +128,9 @@ payload:
   - DOMAIN,tracker4.itzmx.com
   - DOMAIN,udp.tracker.projectk.org
   - DOMAIN,v74853.hosted-by-vdsina.com
-  - DOMAIN,www.2600.com
   - DOMAIN,www.all4nothin.net
   - DOMAIN,www.torrent.eu.org
   - DOMAIN,www.wareztorrent.com
-  - DOMAIN,yuki.bt.bontal.net
   - DOMAIN-SUFFIX,1ptba.com
   - DOMAIN-SUFFIX,2xfree.org
   - DOMAIN-SUFFIX,52pt.site
