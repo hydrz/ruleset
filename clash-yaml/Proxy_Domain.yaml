@@ -1,13 +1,13 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-12-30 02:08:27
+# UPDATED: 2026-01-08 02:08:42
 # DOMAIN: 9
 # DOMAIN-KEYWORD: 26
-# DOMAIN-SUFFIX: 6567
+# DOMAIN-SUFFIX: 6583
 # IP-CIDR: 93
 # IP-CIDR6: 4
-# TOTAL: 6699
+# TOTAL: 6715
 payload:
   - 'api.waqi.info'
   - 'aqi.aqicn.org'
@@ -234,6 +234,7 @@ payload:
   - '+.ai-kan.net'
   - '+.ai-wen.net'
   - '+.ai.dev'
+  - '+.ai.studio'
   - '+.aiosearch.com'
   - '+.aiph.net'
   - '+.airasia.com'
@@ -1368,6 +1369,7 @@ payload:
   - '+.dayabook.com'
   - '+.daylife.com'
   - '+.dayone.me'
+  - '+.dazn.com'
   - '+.db.tt'
   - '+.dbc.hk'
   - '+.dbgjd.com'
@@ -4074,6 +4076,8 @@ payload:
   - '+.onthehunt.com'
   - '+.ontrac.com'
   - '+.oojj.de'
+  - '+.ooni.io'
+  - '+.ooni.org'
   - '+.oopsforum.com'
   - '+.ooyala.com'
   - '+.open.com.hk'
@@ -4204,6 +4208,7 @@ payload:
   - '+.pdetails.com'
   - '+.pdfexpert.com'
   - '+.pdproxy.com'
+  - '+.pdst.fm'
   - '+.peace.ca'
   - '+.peacefire.org'
   - '+.peacehall.com'
@@ -4272,14 +4277,23 @@ payload:
   - '+.pinoy-n.com'
   - '+.pinterest.at'
   - '+.pinterest.ca'
+  - '+.pinterest.cl'
   - '+.pinterest.co.kr'
   - '+.pinterest.co.uk'
   - '+.pinterest.com'
+  - '+.pinterest.com.au'
+  - '+.pinterest.com.mx'
   - '+.pinterest.de'
   - '+.pinterest.dk'
+  - '+.pinterest.es'
   - '+.pinterest.fr'
+  - '+.pinterest.ie'
+  - '+.pinterest.it'
   - '+.pinterest.jp'
   - '+.pinterest.nl'
+  - '+.pinterest.nz'
+  - '+.pinterest.ph'
+  - '+.pinterest.pt'
   - '+.pinterest.se'
   - '+.pipii.tv'
   - '+.piposay.com'
@@ -5823,6 +5837,7 @@ payload:
   - '+.untraceable.us'
   - '+.unwire.hk'
   - '+.uocn.org'
+  - '+.up.audio'
   - '+.upbit.com'
   - '+.updatestar.com'
   - '+.upghsbc.com'
@@ -6302,6 +6317,7 @@ payload:
   - '+.xbookcn.com'
   - '+.xbtce.com'
   - '+.xcafe.in'
+  - '+.xcancel.com'
   - '+.xcity.jp'
   - '+.xclient.info'
   - '+.xcritic.com'
