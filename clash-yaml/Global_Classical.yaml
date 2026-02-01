@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-01-26 02:07:55
-# DOMAIN: 117
+# UPDATED: 2026-02-01 02:08:23
+# DOMAIN: 116
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 32582
+# DOMAIN-SUFFIX: 32606
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # PROCESS-NAME: 1
-# TOTAL: 32852
+# TOTAL: 32875
 payload:
   - DOMAIN,1password.drift.click
   - DOMAIN,adobeereg.com
@@ -80,7 +80,6 @@ payload:
   - DOMAIN,practivate.adobe.ipp
   - DOMAIN,practivate.adobe.newoa
   - DOMAIN,practivate.adobe.ntp
-  - DOMAIN,pubg1.battleye.com
   - DOMAIN,public-us-pingsx.api.clonoth.com
   - DOMAIN,push-apple.com.akadns.net
   - DOMAIN,qualcomm.sc.omtrdc.net
@@ -144,6 +143,7 @@ payload:
   - DOMAIN-SUFFIX,101boyvideos.com
   - DOMAIN-SUFFIX,101tubeporn.com
   - DOMAIN-SUFFIX,101xxx.xyz
+  - DOMAIN-SUFFIX,1024terabox.com
   - DOMAIN-SUFFIX,10bet.com
   - DOMAIN-SUFFIX,10c10qoo.one
   - DOMAIN-SUFFIX,10xfotolia.com
@@ -2214,7 +2214,9 @@ payload:
   - DOMAIN-SUFFIX,ark.to
   - DOMAIN-SUFFIX,arm.ac.uk
   - DOMAIN-SUFFIX,arma.ac.uk
+  - DOMAIN-SUFFIX,arma3.com
   - DOMAIN-SUFFIX,armagh.ac.uk
+  - DOMAIN-SUFFIX,armaplatform.com
   - DOMAIN-SUFFIX,armovs.com
   - DOMAIN-SUFFIX,arnold-carlton.ac.uk
   - DOMAIN-SUFFIX,arnoldrenderer.com
@@ -2355,11 +2357,13 @@ payload:
   - DOMAIN-SUFFIX,ateam-oracle.com
   - DOMAIN-SUFFIX,athens.ac.uk
   - DOMAIN-SUFFIX,atkgallery.com
+  - DOMAIN-SUFFIX,atl-paas.net
   - DOMAIN-SUFFIX,atlantaminidealers.com
   - DOMAIN-SUFFIX,atlars.ac.uk
   - DOMAIN-SUFFIX,atlas.ac.uk
   - DOMAIN-SUFFIX,atlasdmt.com
   - DOMAIN-SUFFIX,atlasonepoint.com
+  - DOMAIN-SUFFIX,atlassian-dev.net
   - DOMAIN-SUFFIX,atlassian.com
   - DOMAIN-SUFFIX,atlassian.net
   - DOMAIN-SUFFIX,atom.io
@@ -2917,6 +2921,7 @@ payload:
   - DOMAIN-SUFFIX,battlefront2.com
   - DOMAIN-SUFFIX,battlefrontii.com
   - DOMAIN-SUFFIX,battlelog.com
+  - DOMAIN-SUFFIX,battleye.com
   - DOMAIN-SUFFIX,bavs.ac.uk
   - DOMAIN-SUFFIX,baxsound.com
   - DOMAIN-SUFFIX,bayareabmw.com
@@ -3364,6 +3369,7 @@ payload:
   - DOMAIN-SUFFIX,bestbuytradein.com
   - DOMAIN-SUFFIX,bestbuyus.com
   - DOMAIN-SUFFIX,bestcamsites.net
+  - DOMAIN-SUFFIX,bestclouddrive.com
   - DOMAIN-SUFFIX,besterpornos.com
   - DOMAIN-SUFFIX,bestescortgirls.nl
   - DOMAIN-SUFFIX,bestfreecams.club
@@ -3623,6 +3629,7 @@ payload:
   - DOMAIN-SUFFIX,bisi.ac.uk
   - DOMAIN-SUFFIX,bisq.io
   - DOMAIN-SUFFIX,bisq.network
+  - DOMAIN-SUFFIX,bistudio.com
   - DOMAIN-SUFFIX,bisyoujyogyaruge.topaz.ne.jp
   - DOMAIN-SUFFIX,bitballoon.com
   - DOMAIN-SUFFIX,bitbank.cc
@@ -4259,6 +4266,7 @@ payload:
   - DOMAIN-SUFFIX,bodyfluids-jav.com
   - DOMAIN-SUFFIX,bognor-training.ac.uk
   - DOMAIN-SUFFIX,bognor.ac.uk
+  - DOMAIN-SUFFIX,bohemia.net
   - DOMAIN-SUFFIX,boj.or.jp
   - DOMAIN-SUFFIX,bokep.net
   - DOMAIN-SUFFIX,bokepseks.org
@@ -6147,6 +6155,7 @@ payload:
   - DOMAIN-SUFFIX,criticalfriend.ac.uk
   - DOMAIN-SUFFIX,criticaltheology.ac.uk
   - DOMAIN-SUFFIX,critiquebrainz.org
+  - DOMAIN-SUFFIX,crixet.com
   - DOMAIN-SUFFIX,crmdynint-gcc.com
   - DOMAIN-SUFFIX,crmdynint.com
   - DOMAIN-SUFFIX,crocels.ac.uk
@@ -6460,6 +6469,7 @@ payload:
   - DOMAIN-SUFFIX,daylenerio.com
   - DOMAIN-SUFFIX,daytonbmw.com
   - DOMAIN-SUFFIX,daytontrucktires.com
+  - DOMAIN-SUFFIX,dayz.com
   - DOMAIN-SUFFIX,dazn-api.com
   - DOMAIN-SUFFIX,dazndn.com
   - DOMAIN-SUFFIX,daznfeeds.com
@@ -9296,6 +9306,9 @@ payload:
   - DOMAIN-SUFFIX,fotolja.com
   - DOMAIN-SUFFIX,fotoscaserasx.com
   - DOMAIN-SUFFIX,foundationdb.org
+  - DOMAIN-SUFFIX,foundationdns.com
+  - DOMAIN-SUFFIX,foundationdns.net
+  - DOMAIN-SUFFIX,foundationdns.org
   - DOMAIN-SUFFIX,foundationyear.ac.uk
   - DOMAIN-SUFFIX,fourthns.systems
   - DOMAIN-SUFFIX,fox-corporation.com
@@ -13249,6 +13262,7 @@ payload:
   - DOMAIN-SUFFIX,jinmantiankong.com
   - DOMAIN-SUFFIX,jinnaju.com
   - DOMAIN-SUFFIX,jinsilubanzhao.com
+  - DOMAIN-SUFFIX,jira.com
   - DOMAIN-SUFFIX,jisc-collections.ac.uk
   - DOMAIN-SUFFIX,jisc-content.ac.uk
   - DOMAIN-SUFFIX,jisc-liberate-migrate1.ac.uk
@@ -14662,6 +14676,7 @@ payload:
   - DOMAIN-SUFFIX,mairbeats.com
   - DOMAIN-SUFFIX,makaan.com
   - DOMAIN-SUFFIX,makeanything.com
+  - DOMAIN-SUFFIX,makearmanotwar.com
   - DOMAIN-SUFFIX,makebettercode.com
   - DOMAIN-SUFFIX,makecode.org
   - DOMAIN-SUFFIX,makeitopen.com
@@ -17787,6 +17802,7 @@ payload:
   - DOMAIN-SUFFIX,osmosis.ac.uk
   - DOMAIN-SUFFIX,ospray.net
   - DOMAIN-SUFFIX,ospray.org
+  - DOMAIN-SUFFIX,ospserver.net
   - DOMAIN-SUFFIX,oss-ap-northeast-1.aliyuncs.com
   - DOMAIN-SUFFIX,oss-ap-northeast-2.aliyuncs.com
   - DOMAIN-SUFFIX,oss-ap-south-1.aliyuncs.com
@@ -20946,6 +20962,7 @@ payload:
   - DOMAIN-SUFFIX,sihe.ac.uk
   - DOMAIN-SUFFIX,sikh-uni.ac.uk
   - DOMAIN-SUFFIX,sikiswap.com
+  - DOMAIN-SUFFIX,silicagame.com
   - DOMAIN-SUFFIX,silicon-mobility.com
   - DOMAIN-SUFFIX,siliconmobility.com
   - DOMAIN-SUFFIX,silkengirl.com
@@ -21532,6 +21549,7 @@ payload:
   - DOMAIN-SUFFIX,srttu.edu
   - DOMAIN-SUFFIX,sruc.ac.uk
   - DOMAIN-SUFFIX,srwwu.uno
+  - DOMAIN-SUFFIX,ss-inf.net
   - DOMAIN-SUFFIX,ss2.us
   - DOMAIN-SUFFIX,ss7.app
   - DOMAIN-SUFFIX,ssdevrd.com
@@ -22323,6 +22341,7 @@ payload:
   - DOMAIN-SUFFIX,tempusuk.ac.uk
   - DOMAIN-SUFFIX,tenbyfotolia.com
   - DOMAIN-SUFFIX,tentowns.ac.uk
+  - DOMAIN-SUFFIX,terabox1024.com
   - DOMAIN-SUFFIX,terapeack.com
   - DOMAIN-SUFFIX,terapeak.ca
   - DOMAIN-SUFFIX,terapeak.com
@@ -23845,6 +23864,7 @@ payload:
   - DOMAIN-SUFFIX,viewerswives.net
   - DOMAIN-SUFFIX,viewgals.com
   - DOMAIN-SUFFIX,viewpointsfromfacebook.com
+  - DOMAIN-SUFFIX,vigorgame.com
   - DOMAIN-SUFFIX,vikiporn.com
   - DOMAIN-SUFFIX,vilavpn.xyz
   - DOMAIN-SUFFIX,vilavpn1.xyz
@@ -25679,7 +25699,6 @@ payload:
   - DOMAIN-SUFFIX,yeyuehuachao11.com
   - DOMAIN-SUFFIX,yeyuehuachao12.com
   - DOMAIN-SUFFIX,yeyuehuachao13.com
-  - DOMAIN-SUFFIX,yfsp.tv
   - DOMAIN-SUFFIX,yft-mv.sbs
   - DOMAIN-SUFFIX,ygugu4.com
   - DOMAIN-SUFFIX,yhelln.ac.uk
@@ -25701,6 +25720,7 @@ payload:
   - DOMAIN-SUFFIX,yiqiedoushiganggangkaishi.org
   - DOMAIN-SUFFIX,yiyechat.com
   - DOMAIN-SUFFIX,yjcontentdelivery.com
+  - DOMAIN-SUFFIX,ylands.com
   - DOMAIN-SUFFIX,ymail.com
   - DOMAIN-SUFFIX,ymca-wales.ac.uk
   - DOMAIN-SUFFIX,ymca.ac.uk
@@ -28167,6 +28187,7 @@ payload:
   - DOMAIN-SUFFIX,freess.org
   - DOMAIN-SUFFIX,freessh.us
   - DOMAIN-SUFFIX,freetcp.com
+  - DOMAIN-SUFFIX,freeterabox.com
   - DOMAIN-SUFFIX,freetibet.net
   - DOMAIN-SUFFIX,freetibet.org
   - DOMAIN-SUFFIX,freetibetanheroes.org
@@ -30986,6 +31007,7 @@ payload:
   - DOMAIN-SUFFIX,sijihuisuo.com
   - DOMAIN-SUFFIX,silkbook.com
   - DOMAIN-SUFFIX,silvergatebank.com
+  - DOMAIN-SUFFIX,simianx.ai
   - DOMAIN-SUFFIX,simp.ly
   - DOMAIN-SUFFIX,simplecd.me
   - DOMAIN-SUFFIX,simplecd.org
@@ -32558,6 +32580,7 @@ payload:
   - DOMAIN-SUFFIX,yesasia.com
   - DOMAIN-SUFFIX,yesasia.com.hk
   - DOMAIN-SUFFIX,yeyeclub.com
+  - DOMAIN-SUFFIX,yfsp.tv
   - DOMAIN-SUFFIX,ygto.com
   - DOMAIN-SUFFIX,yhcw.net
   - DOMAIN-SUFFIX,yibada.com

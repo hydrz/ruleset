@@ -1,13 +1,13 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-01-22 02:17:22
+# UPDATED: 2026-02-01 02:08:43
 # DOMAIN: 9
 # DOMAIN-KEYWORD: 26
-# DOMAIN-SUFFIX: 6590
+# DOMAIN-SUFFIX: 6594
 # IP-CIDR: 93
 # IP-CIDR6: 4
-# TOTAL: 6722
+# TOTAL: 6726
 DOMAIN,api.waqi.info
 DOMAIN,aqi.aqicn.org
 DOMAIN,assets-priconne-redive-us.akamaized.net
@@ -515,6 +515,7 @@ DOMAIN-SUFFIX,baby-kingdom.com
 DOMAIN-SUFFIX,babylonbee.com
 DOMAIN-SUFFIX,babynet.com.hk
 DOMAIN-SUFFIX,backchina.com
+DOMAIN-SUFFIX,backend-v2.crixet.com
 DOMAIN-SUFFIX,backpackers.com.tw
 DOMAIN-SUFFIX,backtotiananmen.com
 DOMAIN-SUFFIX,bad.news
@@ -2032,6 +2033,7 @@ DOMAIN-SUFFIX,freerk.com
 DOMAIN-SUFFIX,freess.org
 DOMAIN-SUFFIX,freessh.us
 DOMAIN-SUFFIX,freetcp.com
+DOMAIN-SUFFIX,freeterabox.com
 DOMAIN-SUFFIX,freetibet.net
 DOMAIN-SUFFIX,freetibet.org
 DOMAIN-SUFFIX,freetibetanheroes.org
@@ -4865,6 +4867,7 @@ DOMAIN-SUFFIX,sijihuisuo.club
 DOMAIN-SUFFIX,sijihuisuo.com
 DOMAIN-SUFFIX,silkbook.com
 DOMAIN-SUFFIX,silvergatebank.com
+DOMAIN-SUFFIX,simianx.ai
 DOMAIN-SUFFIX,simp.ly
 DOMAIN-SUFFIX,simplecd.me
 DOMAIN-SUFFIX,simplecd.org
@@ -6455,6 +6458,7 @@ DOMAIN-SUFFIX,yes123.com.tw
 DOMAIN-SUFFIX,yesasia.com
 DOMAIN-SUFFIX,yesasia.com.hk
 DOMAIN-SUFFIX,yeyeclub.com
+DOMAIN-SUFFIX,yfsp.tv
 DOMAIN-SUFFIX,ygto.com
 DOMAIN-SUFFIX,yhcw.net
 DOMAIN-SUFFIX,yibada.com
