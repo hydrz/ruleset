@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-02-01 02:08:23
+# UPDATED: 2026-02-08 02:09:40
 # DOMAIN: 116
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 32606
+# DOMAIN-SUFFIX: 32621
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # PROCESS-NAME: 1
-# TOTAL: 32875
+# TOTAL: 32890
 payload:
   - '1password.drift.click'
   - 'adobeereg.com'
@@ -4584,6 +4584,7 @@ payload:
   - '+.bs-adreview.com'
   - '+.bs-awh.ne.jp'
   - '+.bsa.ac.uk'
+  - '+.bsappapi.com'
   - '+.bsaw.ac.uk'
   - '+.bsbec.ac.uk'
   - '+.bsdc.ac.uk'
@@ -14395,6 +14396,7 @@ payload:
   - '+.lou.ac.uk'
   - '+.loucoll.ac.uk'
   - '+.loughborough.ac.uk'
+  - '+.louisvuitton.com'
   - '+.love-sextoys.co.uk'
   - '+.love4porn.com'
   - '+.love6.tv'
@@ -14760,6 +14762,8 @@ payload:
   - '+.mantochichi.com'
   - '+.manufacturingedc.ac.uk'
   - '+.manurefetish.com'
+  - '+.manus.im'
+  - '+.manuscdn.com'
   - '+.manytoon.com'
   - '+.manyvids.com'
   - '+.maoeraobjects.ac.uk'
@@ -17798,6 +17802,7 @@ payload:
   - '+.osiri-suki-club.com'
   - '+.osl.com'
   - '+.osm.org'
+  - '+.osmand.net'
   - '+.osmfoundation.org'
   - '+.osmosis.ac.uk'
   - '+.ospray.net'
@@ -18376,8 +18381,6 @@ payload:
   - '+.piirus.ac.uk'
   - '+.pikabu.monster'
   - '+.pikpak.io'
-  - '+.pikpak.me'
-  - '+.pikpakdrive.com'
   - '+.pilgrimageandcathedrals.ac.uk'
   - '+.pilgrimagestudies.ac.uk'
   - '+.pillbeatsblackfridaysale.com'
@@ -18462,6 +18465,7 @@ payload:
   - '+.pjbyj.top'
   - '+.pjful-app.lol'
   - '+.pjgirls.com'
+  - '+.pjsekai.sega.jp'
   - '+.pki-post.ch'
   - '+.pki-posta.ch'
   - '+.pki-poste.ch'
@@ -19420,6 +19424,7 @@ payload:
   - '+.radeon.com'
   - '+.radgametools.com'
   - '+.radian6.com'
+  - '+.radiko-cf.com'
   - '+.radiofarda.com'
   - '+.radiomango.fm'
   - '+.radiomarsho.com'
@@ -20128,6 +20133,7 @@ payload:
   - '+.salebeatslasteststyle4you.com'
   - '+.saleblackfridaydrebeats.com'
   - '+.salecheaphandbags.com'
+  - '+.salesforce-setup.com'
   - '+.salesforce.com'
   - '+.salesforce.org'
   - '+.salesforceiq.com'
@@ -21048,6 +21054,7 @@ payload:
   - '+.sketchbooknews.com'
   - '+.sketchbookpro.com'
   - '+.sketchfab.com'
+  - '+.skills.sh'
   - '+.skillsbridge.ac.uk'
   - '+.skillscompetitionwales.ac.uk'
   - '+.skillsgroupuk.ac.uk'
@@ -21135,6 +21142,7 @@ payload:
   - '+.smartonerobotics.com'
   - '+.smartonesolutions.com.hk'
   - '+.smartonesolutions.hk'
+  - '+.smartstream.ne.jp'
   - '+.smashed.xxx'
   - '+.smbc.co.jp'
   - '+.smbctb.co.jp'
@@ -26739,6 +26747,7 @@ payload:
   - '+.bbc.co.uk'
   - '+.bbc.com'
   - '+.bbc.in'
+  - '+.bbc.pdn.tritondigital.com'
   - '+.bbcchinese.com'
   - '+.bbchat.tv'
   - '+.bbci.co.uk'
@@ -26854,6 +26863,7 @@ payload:
   - '+.bitshare.com'
   - '+.bitsnoop.com'
   - '+.bitterwinter.org'
+  - '+.bittorrent.com'
   - '+.bitvise.com'
   - '+.bitz.ai'
   - '+.bizhat.com'
@@ -28518,6 +28528,7 @@ payload:
   - '+.greenvpn.org'
   - '+.grindr.com'
   - '+.grok.com'
+  - '+.grokipedia.com'
   - '+.grotty-monday.com'
   - '+.ground.news'
   - '+.gs-discuss.com'
@@ -28618,6 +28629,7 @@ payload:
   - '+.helpshift.com'
   - '+.helpster.de'
   - '+.helpzhuling.org'
+  - '+.hembed.com'
   - '+.hentai.to'
   - '+.hentaitube.tv'
   - '+.hentaivideoworld.com'
@@ -30904,6 +30916,7 @@ payload:
   - '+.seesmic.com'
   - '+.seevpn.com'
   - '+.seezone.net'
+  - '+.sef.org.tw'
   - '+.sehuatang.net'
   - '+.sehuatang.org'
   - '+.sejie.com'
@@ -31343,6 +31356,7 @@ payload:
   - '+.tagwa.org.au'
   - '+.tagwalk.com'
   - '+.tahr.org.tw'
+  - '+.tails.net'
   - '+.taipei.gov.tw'
   - '+.taipeisociety.org'
   - '+.taipeitimes.com'
@@ -32043,6 +32057,7 @@ payload:
   - '+.v.gd'
   - '+.v.roucdn'
   - '+.v2.help'
+  - '+.v2.hysteria.network'
   - '+.v2ex.co'
   - '+.v2ex.com'
   - '+.v2fly.org'

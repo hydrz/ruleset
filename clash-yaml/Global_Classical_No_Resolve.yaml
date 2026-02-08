@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-02-01 02:08:23
+# UPDATED: 2026-02-08 02:09:40
 # DOMAIN: 116
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 32606
+# DOMAIN-SUFFIX: 32621
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # PROCESS-NAME: 1
-# TOTAL: 32875
+# TOTAL: 32890
 payload:
   - DOMAIN,1password.drift.click
   - DOMAIN,adobeereg.com
@@ -4584,6 +4584,7 @@ payload:
   - DOMAIN-SUFFIX,bs-adreview.com
   - DOMAIN-SUFFIX,bs-awh.ne.jp
   - DOMAIN-SUFFIX,bsa.ac.uk
+  - DOMAIN-SUFFIX,bsappapi.com
   - DOMAIN-SUFFIX,bsaw.ac.uk
   - DOMAIN-SUFFIX,bsbec.ac.uk
   - DOMAIN-SUFFIX,bsdc.ac.uk
@@ -14395,6 +14396,7 @@ payload:
   - DOMAIN-SUFFIX,lou.ac.uk
   - DOMAIN-SUFFIX,loucoll.ac.uk
   - DOMAIN-SUFFIX,loughborough.ac.uk
+  - DOMAIN-SUFFIX,louisvuitton.com
   - DOMAIN-SUFFIX,love-sextoys.co.uk
   - DOMAIN-SUFFIX,love4porn.com
   - DOMAIN-SUFFIX,love6.tv
@@ -14760,6 +14762,8 @@ payload:
   - DOMAIN-SUFFIX,mantochichi.com
   - DOMAIN-SUFFIX,manufacturingedc.ac.uk
   - DOMAIN-SUFFIX,manurefetish.com
+  - DOMAIN-SUFFIX,manus.im
+  - DOMAIN-SUFFIX,manuscdn.com
   - DOMAIN-SUFFIX,manytoon.com
   - DOMAIN-SUFFIX,manyvids.com
   - DOMAIN-SUFFIX,maoeraobjects.ac.uk
@@ -17798,6 +17802,7 @@ payload:
   - DOMAIN-SUFFIX,osiri-suki-club.com
   - DOMAIN-SUFFIX,osl.com
   - DOMAIN-SUFFIX,osm.org
+  - DOMAIN-SUFFIX,osmand.net
   - DOMAIN-SUFFIX,osmfoundation.org
   - DOMAIN-SUFFIX,osmosis.ac.uk
   - DOMAIN-SUFFIX,ospray.net
@@ -18376,8 +18381,6 @@ payload:
   - DOMAIN-SUFFIX,piirus.ac.uk
   - DOMAIN-SUFFIX,pikabu.monster
   - DOMAIN-SUFFIX,pikpak.io
-  - DOMAIN-SUFFIX,pikpak.me
-  - DOMAIN-SUFFIX,pikpakdrive.com
   - DOMAIN-SUFFIX,pilgrimageandcathedrals.ac.uk
   - DOMAIN-SUFFIX,pilgrimagestudies.ac.uk
   - DOMAIN-SUFFIX,pillbeatsblackfridaysale.com
@@ -18462,6 +18465,7 @@ payload:
   - DOMAIN-SUFFIX,pjbyj.top
   - DOMAIN-SUFFIX,pjful-app.lol
   - DOMAIN-SUFFIX,pjgirls.com
+  - DOMAIN-SUFFIX,pjsekai.sega.jp
   - DOMAIN-SUFFIX,pki-post.ch
   - DOMAIN-SUFFIX,pki-posta.ch
   - DOMAIN-SUFFIX,pki-poste.ch
@@ -19420,6 +19424,7 @@ payload:
   - DOMAIN-SUFFIX,radeon.com
   - DOMAIN-SUFFIX,radgametools.com
   - DOMAIN-SUFFIX,radian6.com
+  - DOMAIN-SUFFIX,radiko-cf.com
   - DOMAIN-SUFFIX,radiofarda.com
   - DOMAIN-SUFFIX,radiomango.fm
   - DOMAIN-SUFFIX,radiomarsho.com
@@ -20128,6 +20133,7 @@ payload:
   - DOMAIN-SUFFIX,salebeatslasteststyle4you.com
   - DOMAIN-SUFFIX,saleblackfridaydrebeats.com
   - DOMAIN-SUFFIX,salecheaphandbags.com
+  - DOMAIN-SUFFIX,salesforce-setup.com
   - DOMAIN-SUFFIX,salesforce.com
   - DOMAIN-SUFFIX,salesforce.org
   - DOMAIN-SUFFIX,salesforceiq.com
@@ -21048,6 +21054,7 @@ payload:
   - DOMAIN-SUFFIX,sketchbooknews.com
   - DOMAIN-SUFFIX,sketchbookpro.com
   - DOMAIN-SUFFIX,sketchfab.com
+  - DOMAIN-SUFFIX,skills.sh
   - DOMAIN-SUFFIX,skillsbridge.ac.uk
   - DOMAIN-SUFFIX,skillscompetitionwales.ac.uk
   - DOMAIN-SUFFIX,skillsgroupuk.ac.uk
@@ -21135,6 +21142,7 @@ payload:
   - DOMAIN-SUFFIX,smartonerobotics.com
   - DOMAIN-SUFFIX,smartonesolutions.com.hk
   - DOMAIN-SUFFIX,smartonesolutions.hk
+  - DOMAIN-SUFFIX,smartstream.ne.jp
   - DOMAIN-SUFFIX,smashed.xxx
   - DOMAIN-SUFFIX,smbc.co.jp
   - DOMAIN-SUFFIX,smbctb.co.jp
@@ -26739,6 +26747,7 @@ payload:
   - DOMAIN-SUFFIX,bbc.co.uk
   - DOMAIN-SUFFIX,bbc.com
   - DOMAIN-SUFFIX,bbc.in
+  - DOMAIN-SUFFIX,bbc.pdn.tritondigital.com
   - DOMAIN-SUFFIX,bbcchinese.com
   - DOMAIN-SUFFIX,bbchat.tv
   - DOMAIN-SUFFIX,bbci.co.uk
@@ -26854,6 +26863,7 @@ payload:
   - DOMAIN-SUFFIX,bitshare.com
   - DOMAIN-SUFFIX,bitsnoop.com
   - DOMAIN-SUFFIX,bitterwinter.org
+  - DOMAIN-SUFFIX,bittorrent.com
   - DOMAIN-SUFFIX,bitvise.com
   - DOMAIN-SUFFIX,bitz.ai
   - DOMAIN-SUFFIX,bizhat.com
@@ -28518,6 +28528,7 @@ payload:
   - DOMAIN-SUFFIX,greenvpn.org
   - DOMAIN-SUFFIX,grindr.com
   - DOMAIN-SUFFIX,grok.com
+  - DOMAIN-SUFFIX,grokipedia.com
   - DOMAIN-SUFFIX,grotty-monday.com
   - DOMAIN-SUFFIX,ground.news
   - DOMAIN-SUFFIX,gs-discuss.com
@@ -28618,6 +28629,7 @@ payload:
   - DOMAIN-SUFFIX,helpshift.com
   - DOMAIN-SUFFIX,helpster.de
   - DOMAIN-SUFFIX,helpzhuling.org
+  - DOMAIN-SUFFIX,hembed.com
   - DOMAIN-SUFFIX,hentai.to
   - DOMAIN-SUFFIX,hentaitube.tv
   - DOMAIN-SUFFIX,hentaivideoworld.com
@@ -30904,6 +30916,7 @@ payload:
   - DOMAIN-SUFFIX,seesmic.com
   - DOMAIN-SUFFIX,seevpn.com
   - DOMAIN-SUFFIX,seezone.net
+  - DOMAIN-SUFFIX,sef.org.tw
   - DOMAIN-SUFFIX,sehuatang.net
   - DOMAIN-SUFFIX,sehuatang.org
   - DOMAIN-SUFFIX,sejie.com
@@ -31343,6 +31356,7 @@ payload:
   - DOMAIN-SUFFIX,tagwa.org.au
   - DOMAIN-SUFFIX,tagwalk.com
   - DOMAIN-SUFFIX,tahr.org.tw
+  - DOMAIN-SUFFIX,tails.net
   - DOMAIN-SUFFIX,taipei.gov.tw
   - DOMAIN-SUFFIX,taipeisociety.org
   - DOMAIN-SUFFIX,taipeitimes.com
@@ -32043,6 +32057,7 @@ payload:
   - DOMAIN-SUFFIX,v.gd
   - DOMAIN-SUFFIX,v.roucdn
   - DOMAIN-SUFFIX,v2.help
+  - DOMAIN-SUFFIX,v2.hysteria.network
   - DOMAIN-SUFFIX,v2ex.co
   - DOMAIN-SUFFIX,v2ex.com
   - DOMAIN-SUFFIX,v2fly.org
