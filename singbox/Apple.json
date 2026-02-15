@@ -51,6 +51,7 @@
         "appl.com",
         "appl4e.com",
         "appla.com",
+        "appldnld.apple.com.edgesuite.net",
         "apple-darwin.com",
         "apple-darwin.net",
         "apple-darwin.org",
@@ -1497,7 +1498,6 @@
         "wwwapplemusic.com",
         "apple-dns.net",
         "appsto.re",
-        "cdn-apple.com",
         "digicert.com",
         "apple-cloudkit.com",
         "apple-icloud.cn",
@@ -1505,6 +1505,7 @@
         "appleicloud.cn",
         "applemx-icloud.com",
         "apzones.com",
+        "cdn-apple.com",
         "icloud-apple.cn",
         "icloud-content.com",
         "icloud-isupport.com",
@@ -1554,7 +1555,6 @@
         "wwwicloud.com"
       ],
       "domain": [
-        "appldnld.apple.com.edgesuite.net",
         "apple-events.akamaized.net",
         "appleworldwidedeveloper.hb-api.omtrdc.net",
         "appleworldwidedeveloper.sc.omtrdc.net",
@@ -1584,7 +1584,10 @@
         "198.183.17.0/24",
         "205.180.175.0/24",
         "63.92.224.0/19",
-        "65.199.22.0/23"
+        "65.199.22.0/23",
+        "2403:300::/32",
+        "2620:149::/32",
+        "2a01:b740::/32"
       ],
       "process_name": [
         "CoreLocationAgent",
