@@ -1,5 +1,5 @@
 # Custom rules for ChinaDNS_No_Resolve
-# Generated at 2026-02-15 03:53:29
+# Generated at 2026-02-22 03:49:37
 
 IP-CIDR,223.5.5.5/32
 IP-CIDR,223.6.6.6/32
