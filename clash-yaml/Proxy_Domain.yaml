@@ -1,13 +1,13 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-02-26 02:24:40
+# UPDATED: 2026-03-08 02:08:34
 # DOMAIN: 9
 # DOMAIN-KEYWORD: 26
-# DOMAIN-SUFFIX: 6574
+# DOMAIN-SUFFIX: 6580
 # IP-CIDR: 93
 # IP-CIDR6: 4
-# TOTAL: 6706
+# TOTAL: 6712
 payload:
   - 'api.waqi.info'
   - 'aqi.aqicn.org'
@@ -431,6 +431,7 @@ payload:
   - '+.archives.gov'
   - '+.arctosia.com'
   - '+.areca-backup.org'
+  - '+.arena.ai'
   - '+.arena.taipei'
   - '+.arethusa.su'
   - '+.arlingtoncemetery.mil'
@@ -444,6 +445,7 @@ payload:
   - '+.artsy.net'
   - '+.arunachalforests.gov.in'
   - '+.arvanstorage.ir'
+  - '+.arweave.org'
   - '+.asacp.org'
   - '+.asdfg.jp'
   - '+.asg.to'
@@ -1130,6 +1132,7 @@ payload:
   - '+.cl.ly'
   - '+.clarionproject.org'
   - '+.classicalguitarblog.net'
+  - '+.claude.com'
   - '+.clb.org.hk'
   - '+.cleansite.biz'
   - '+.cleansite.info'
@@ -1521,6 +1524,7 @@ payload:
   - '+.doujincafe.com'
   - '+.dowei.org'
   - '+.dowjones.com'
+  - '+.download.dappcdn.com'
   - '+.dphk.org'
   - '+.dpool.top'
   - '+.dpp.org.tw'
@@ -3398,6 +3402,7 @@ payload:
   - '+.mansion.com'
   - '+.mansionpoker.com'
   - '+.manta.com'
+  - '+.manus.im'
   - '+.manyvoices.news'
   - '+.maplew.com'
   - '+.marc.info'
@@ -6217,6 +6222,7 @@ payload:
   - '+.wireguard.com'
   - '+.wisdompubs.org'
   - '+.wisevid.com'
+  - '+.wispbyte.com'
   - '+.wistia.com'
   - '+.witnessleeteaching.com'
   - '+.witopia.net'
