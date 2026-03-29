@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-03-22 02:09:42
+# UPDATED: 2026-03-28 02:20:44
 # DOMAIN: 119
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 32928
+# DOMAIN-SUFFIX: 32950
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # PROCESS-NAME: 1
-# TOTAL: 33200
+# TOTAL: 33222
 payload:
   - DOMAIN,1password.drift.click
   - DOMAIN,adobeereg.com
@@ -5669,6 +5669,7 @@ payload:
   - DOMAIN-SUFFIX,chuls.ac.uk
   - DOMAIN-SUFFIX,chuneo.xyz
   - DOMAIN-SUFFIX,chunja19.net
+  - DOMAIN-SUFFIX,chunkbase.com
   - DOMAIN-SUFFIX,chuokoron.jp
   - DOMAIN-SUFFIX,chuporno.com
   - DOMAIN-SUFFIX,churchill.ac.uk
@@ -8368,6 +8369,7 @@ payload:
   - DOMAIN-SUFFIX,equal.ac.uk
   - DOMAIN-SUFFIX,equalityhigher.ac.uk
   - DOMAIN-SUFFIX,equator.ac.uk
+  - DOMAIN-SUFFIX,equinox.io
   - DOMAIN-SUFFIX,equistudy.ac.uk
   - DOMAIN-SUFFIX,era.ac.uk
   - DOMAIN-SUFFIX,erabaru.net
@@ -15611,6 +15613,7 @@ payload:
   - DOMAIN-SUFFIX,minecraft-services.net
   - DOMAIN-SUFFIX,minecraft.net
   - DOMAIN-SUFFIX,minecraft.wiki
+  - DOMAIN-SUFFIX,minecraftforge.net
   - DOMAIN-SUFFIX,minecraftservices.com
   - DOMAIN-SUFFIX,minecraftshop.com
   - DOMAIN-SUFFIX,mineofinfo.ac.uk
@@ -16562,6 +16565,7 @@ payload:
   - DOMAIN-SUFFIX,nakednews.com
   - DOMAIN-SUFFIX,naln.ac.uk
   - DOMAIN-SUFFIX,nam.ac.uk
+  - DOMAIN-SUFFIX,namemc.com
   - DOMAIN-SUFFIX,namemybeats.com
   - DOMAIN-SUFFIX,namethatporn.com
   - DOMAIN-SUFFIX,namethatpornad.com
@@ -17013,6 +17017,7 @@ payload:
   - DOMAIN-SUFFIX,nginx.org
   - DOMAIN-SUFFIX,nginxconfig.io
   - DOMAIN-SUFFIX,ngodupdongchung.com
+  - DOMAIN-SUFFIX,ngrok-agent.com
   - DOMAIN-SUFFIX,ngrok-free.app
   - DOMAIN-SUFFIX,ngrok-free.dev
   - DOMAIN-SUFFIX,ngrok-free.pizza
@@ -17945,6 +17950,7 @@ payload:
   - DOMAIN-SUFFIX,openlibrary.org
   - DOMAIN-SUFFIX,openmaps.org
   - DOMAIN-SUFFIX,openreality.com
+  - DOMAIN-SUFFIX,openrec.tv
   - DOMAIN-SUFFIX,openresty.org
   - DOMAIN-SUFFIX,openreview.net
   - DOMAIN-SUFFIX,openrouter.ai
@@ -17981,6 +17987,7 @@ payload:
   - DOMAIN-SUFFIX,optica.org
   - DOMAIN-SUFFIX,opticore.com
   - DOMAIN-SUFFIX,opticsforthecloud.net
+  - DOMAIN-SUFFIX,optifine.net
   - DOMAIN-SUFFIX,optima-cdt.ac.uk
   - DOMAIN-SUFFIX,optimumssl.com
   - DOMAIN-SUFFIX,opwall.ac.uk
@@ -18125,8 +18132,15 @@ payload:
   - DOMAIN-SUFFIX,ozeex.com
   - DOMAIN-SUFFIX,ozodi.org
   - DOMAIN-SUFFIX,ozodlik.org
+  - DOMAIN-SUFFIX,ozon.by
+  - DOMAIN-SUFFIX,ozon.com
+  - DOMAIN-SUFFIX,ozon.com.by
+  - DOMAIN-SUFFIX,ozon.com.kz
+  - DOMAIN-SUFFIX,ozon.kz
   - DOMAIN-SUFFIX,ozon.ru
+  - DOMAIN-SUFFIX,ozon.tm
   - DOMAIN-SUFFIX,ozone.ru
+  - DOMAIN-SUFFIX,ozonru.me
   - DOMAIN-SUFFIX,ozonusercontent.com
   - DOMAIN-SUFFIX,p-cdn.us
   - DOMAIN-SUFFIX,pa9pal.com
@@ -19509,6 +19523,7 @@ payload:
   - DOMAIN-SUFFIX,qbmengmei6.mom
   - DOMAIN-SUFFIX,qbsc.ac.uk
   - DOMAIN-SUFFIX,qckprn.com
+  - DOMAIN-SUFFIX,qcomgeo2.com
   - DOMAIN-SUFFIX,qctconnect.com
   - DOMAIN-SUFFIX,qdiehzz7.me
   - DOMAIN-SUFFIX,qdmomentum.com
@@ -19561,6 +19576,7 @@ payload:
   - DOMAIN-SUFFIX,quadraminstitute.ac.uk
   - DOMAIN-SUFFIX,quadrat.ac.uk
   - DOMAIN-SUFFIX,qualcomm-email.com
+  - DOMAIN-SUFFIX,qualcomm-inc.com
   - DOMAIN-SUFFIX,qualcomm.co.id
   - DOMAIN-SUFFIX,qualcomm.co.in
   - DOMAIN-SUFFIX,qualcomm.co.jp
@@ -21745,6 +21761,7 @@ payload:
   - DOMAIN-SUFFIX,spicywriter.com
   - DOMAIN-SUFFIX,spider.ac.uk
   - DOMAIN-SUFFIX,spiegel.de
+  - DOMAIN-SUFFIX,spigotmc.org
   - DOMAIN-SUFFIX,spinesurgeons.ac.uk
   - DOMAIN-SUFFIX,spiritclubs.com
   - DOMAIN-SUFFIX,spiritofecstasy.com
@@ -22594,6 +22611,8 @@ payload:
   - DOMAIN-SUFFIX,tejaratbank.ir
   - DOMAIN-SUFFIX,tel.ac.uk
   - DOMAIN-SUFFIX,telebay.com
+  - DOMAIN-SUFFIX,telega.info
+  - DOMAIN-SUFFIX,telega.me
   - DOMAIN-SUFFIX,telegram-cdn.org
   - DOMAIN-SUFFIX,telegram-porn.com
   - DOMAIN-SUFFIX,telegram.dog
@@ -31152,6 +31171,7 @@ payload:
   - DOMAIN-SUFFIX,s-cute.com
   - DOMAIN-SUFFIX,s-dragon.org
   - DOMAIN-SUFFIX,s-nbcnews.com
+  - DOMAIN-SUFFIX,s.rmimg.com
   - DOMAIN-SUFFIX,s.team
   - DOMAIN-SUFFIX,s1heng.com
   - DOMAIN-SUFFIX,s1s1s1.com
@@ -32820,12 +32840,14 @@ payload:
   - DOMAIN-SUFFIX,xml-training-guide.com
   - DOMAIN-SUFFIX,xmovies.com
   - DOMAIN-SUFFIX,xn--11xs86f.icu
+  - DOMAIN-SUFFIX,xn--1jqvh729avzfcy2d8ummib.com
   - DOMAIN-SUFFIX,xn--4gq171p.com
   - DOMAIN-SUFFIX,xn--90wwvt03e.com
   - DOMAIN-SUFFIX,xn--9iqy04a7fi01l.com
   - DOMAIN-SUFFIX,xn--9pr62r24a.com
   - DOMAIN-SUFFIX,xn--czq75pvv1aj5c.org
   - DOMAIN-SUFFIX,xn--i2ru8q2qg.com
+  - DOMAIN-SUFFIX,xn--kcrv3utim32hx9f6qe.com
   - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
   - DOMAIN-SUFFIX,xn--noss43i.com
   - DOMAIN-SUFFIX,xn--oiq.cc
