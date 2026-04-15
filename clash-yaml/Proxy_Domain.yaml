@@ -1,13 +1,13 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-04-08 02:22:23
+# UPDATED: 2026-04-14 02:27:52
 # DOMAIN: 9
 # DOMAIN-KEYWORD: 26
-# DOMAIN-SUFFIX: 6593
+# DOMAIN-SUFFIX: 6596
 # IP-CIDR: 93
 # IP-CIDR6: 4
-# TOTAL: 6725
+# TOTAL: 6728
 payload:
   - 'api.waqi.info'
   - 'aqi.aqicn.org'
@@ -345,10 +345,10 @@ payload:
   - '+.animecrazy.net'
   - '+.animeshippuuden.com'
   - '+.aniscartujo.com'
-  - '+.annas-archive.in'
-  - '+.annas-archive.li'
+  - '+.annas-archive.gd'
+  - '+.annas-archive.gl'
   - '+.annas-archive.org'
-  - '+.annas-archive.pm'
+  - '+.annas-archive.pk'
   - '+.annas-archive.se'
   - '+.annatam.com'
   - '+.anobii.com'
@@ -1251,6 +1251,7 @@ payload:
   - '+.cpu-monkey.com'
   - '+.cq99.us'
   - '+.crackle.com'
+  - '+.crashlytics.com'
   - '+.crazypool.org'
   - '+.crazys.cc'
   - '+.crazyshit.com'
@@ -3575,6 +3576,7 @@ payload:
   - '+.missav.com'
   - '+.missav.ws'
   - '+.mist.vip'
+  - '+.mistral.ai'
   - '+.mit.edu'
   - '+.mitao.com.tw'
   - '+.mitbbs.com'
@@ -4726,6 +4728,7 @@ payload:
   - '+.sb-cd.com'
   - '+.sbme.me'
   - '+.sbs.com.au'
+  - '+.sbti.unun.dev'
   - '+.scasino.com'
   - '+.scdn.co'
   - '+.schema.org'
