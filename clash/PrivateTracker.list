@@ -1,20 +1,20 @@
 # NAME: PrivateTracker
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-04-14 02:28:49
+# UPDATED: 2026-04-22 02:26:16
 # DOMAIN: 120
 # DOMAIN-KEYWORD: 4
 # DOMAIN-SUFFIX: 123
-# IP-CIDR: 3
-# TOTAL: 250
+# IP-CIDR: 4
+# TOTAL: 251
 DOMAIN,004430.xyz
 DOMAIN,1337.abcvg.info
 DOMAIN,6ahddutb1ucc3cp.ru
 DOMAIN,aboutbeautifulgallopinghorsesinthegreenpasture.online
 DOMAIN,admin.52ywp.com
+DOMAIN,archive.torrentonline.cc
 DOMAIN,bandito.byterunner.io
 DOMAIN,bittorrent-tracker.e-n-c-r-y-p-t.net
-DOMAIN,bt.okmp3.ru
 DOMAIN,bt.rer.lol
 DOMAIN,bt1.archive.org
 DOMAIN,bt2.archive.org
@@ -23,16 +23,15 @@ DOMAIN,coeus.torrentonline.cc
 DOMAIN,evan.im
 DOMAIN,exodus.desync.com
 DOMAIN,explodie.org
-DOMAIN,ftp.pet
 DOMAIN,http1.torrust-tracker-demo.com
 DOMAIN,ipv4announce.sktorrent.eu
 DOMAIN,leet-tracker.moe
-DOMAIN,lucke.fenesisu.moe
 DOMAIN,martin-gebhardt.eu
 DOMAIN,ns575949.ip-51-222-82.net
 DOMAIN,nyaa.tracker.wf
+DOMAIN,obey.torrentonline.cc
 DOMAIN,open.demonii.com
-DOMAIN,open.dstud.io
+DOMAIN,open.ftorrent.com
 DOMAIN,open.stealth.si
 DOMAIN,opentor.org
 DOMAIN,opentracker.8880085.xyz
@@ -44,6 +43,7 @@ DOMAIN,seedpeer.net
 DOMAIN,shahidrazi.online
 DOMAIN,t.213891.xyz
 DOMAIN,t.overflow.biz
+DOMAIN,torrent.bowed.net
 DOMAIN,torrent.tracker.durukanbal.com
 DOMAIN,torrentclub.online
 DOMAIN,torrents.tmtime.dev
@@ -54,9 +54,7 @@ DOMAIN,tr.highstar.shop
 DOMAIN,tr.kxmp.cf
 DOMAIN,tr.nyacat.pw
 DOMAIN,tr4ck3r.duckdns.org
-DOMAIN,tracker-de-2.cutie.dating
 DOMAIN,tracker-udp.gbitt.info
-DOMAIN,tracker-zhuqiy.xn--1r3au8b.space
 DOMAIN,tracker.004430.xyz
 DOMAIN,tracker.1h.is
 DOMAIN,tracker.23794.top
@@ -65,9 +63,8 @@ DOMAIN,tracker.bittor.pw
 DOMAIN,tracker.bluefrog.pw
 DOMAIN,tracker.breizh.pm
 DOMAIN,tracker.bt4g.com
-DOMAIN,tracker.cangku.moe
 DOMAIN,tracker.corpscorp.online
-DOMAIN,tracker.darkness.services
+DOMAIN,tracker.cutie.dating
 DOMAIN,tracker.ddunlimited.net
 DOMAIN,tracker.dhitechnical.com
 DOMAIN,tracker.dler.com
@@ -81,7 +78,7 @@ DOMAIN,tracker.gcrenwp.top
 DOMAIN,tracker.ghostchu-services.top
 DOMAIN,tracker.gmi.gd
 DOMAIN,tracker.hismz.cn
-DOMAIN,tracker.huadongblower.xyz
+DOMAIN,tracker.iperson.xyz
 DOMAIN,tracker.ixuexi.click
 DOMAIN,tracker.kuroy.me
 DOMAIN,tracker.moeblog.cn
@@ -91,7 +88,6 @@ DOMAIN,tracker.nyaa.vc
 DOMAIN,tracker.opentorrent.top
 DOMAIN,tracker.opentrackr.org
 DOMAIN,tracker.openwebtorrent.com
-DOMAIN,tracker.pcfreetime.com
 DOMAIN,tracker.playground.ru
 DOMAIN,tracker.plx.im
 DOMAIN,tracker.pmman.tech
@@ -104,14 +100,14 @@ DOMAIN,tracker.t-1.org
 DOMAIN,tracker.theoks.net
 DOMAIN,tracker.torrent.eu.org
 DOMAIN,tracker.torrust-demo.com
-DOMAIN,tracker.tritan.gg
 DOMAIN,tracker.tryhackx.org
 DOMAIN,tracker.tvunderground.org.ru
-DOMAIN,tracker.wepzone.net
+DOMAIN,tracker.waaa.moe
 DOMAIN,tracker.wildkat.net
 DOMAIN,tracker.xn--djrq4gl4hvoi.top
 DOMAIN,tracker.yemekyedim.com
 DOMAIN,tracker.yggleak.top
+DOMAIN,tracker.yume-hatsuyuki.moe
 DOMAIN,tracker.zhuqiy.com
 DOMAIN,tracker1.520.jp
 DOMAIN,tracker1.itzmx.com
@@ -125,7 +121,11 @@ DOMAIN,uabits.today
 DOMAIN,udp.tracker.projectk.org
 DOMAIN,udp1.torrust-tracker-demo.com
 DOMAIN,utracker.ghostchu-services.top
+DOMAIN,vito-tracker.duckdns.org
+DOMAIN,wepzone.net
+DOMAIN,whybother.torrentonline.cc
 DOMAIN,www.nartlof.com
+DOMAIN,www.wareztorrent.com
 DOMAIN,yuptracker-eu.gaijinent.com
 DOMAIN-SUFFIX,1ptba.com
 DOMAIN-SUFFIX,2xfree.org
@@ -257,3 +257,4 @@ DOMAIN-KEYWORD,torrent
 IP-CIDR,207.241.226.111/32,no-resolve
 IP-CIDR,207.241.231.226/32,no-resolve
 IP-CIDR,52.58.128.163/32,no-resolve
+IP-CIDR,64.226.122.118/32,no-resolve
