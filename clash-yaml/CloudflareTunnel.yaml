@@ -1,5 +1,5 @@
 # Custom rules for CloudflareTunnel
-# Generated at 2026-05-01 04:25:50
+# Generated at 2026-05-08 04:06:24
 payload:
   - DOMAIN-SUFFIX,.argotunnel.com
   - IP-CIDR,198.41.218.1/32
