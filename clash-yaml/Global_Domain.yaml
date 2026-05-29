@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-05-22 02:40:01
+# UPDATED: 2026-05-28 02:48:14
 # DOMAIN: 124
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 34028
+# DOMAIN-SUFFIX: 34034
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # PROCESS-NAME: 1
-# TOTAL: 34305
+# TOTAL: 34311
 payload:
   - '1password.drift.click'
   - 'adobeereg.com'
@@ -7884,6 +7884,7 @@ payload:
   - '+.e-tugra.com'
   - '+.e3an.ac.uk'
   - '+.e5.sk'
+  - '+.e53w.com'
   - '+.ea-anz-press.com'
   - '+.ea.com'
   - '+.eaaccess.com'
@@ -16002,6 +16003,7 @@ payload:
   - '+.midentsolutions.com'
   - '+.midfife.ac.uk'
   - '+.midhurst.ac.uk'
+  - '+.midjourney.com'
   - '+.midkent.ac.uk'
   - '+.midlands3cities.ac.uk'
   - '+.midlands4cities.ac.uk'
@@ -16647,7 +16649,6 @@ payload:
   - '+.moxing.news'
   - '+.moystoys.com'
   - '+.mozgcp.net'
-  - '+.mozilla.ai'
   - '+.mozilla.com'
   - '+.mozilla.community'
   - '+.mozilla.net'
@@ -20104,6 +20105,7 @@ payload:
   - '+.qbmengmei6.mom'
   - '+.qbsc.ac.uk'
   - '+.qckprn.com'
+  - '+.qcmod.xyz'
   - '+.qcomgeo2.com'
   - '+.qctconnect.com'
   - '+.qdiehzz7.me'
@@ -27650,6 +27652,7 @@ payload:
   - '+.228.net.tw'
   - '+.233abc.com'
   - '+.233v2.com'
+  - '+.24hbook.com'
   - '+.24hrs.ca'
   - '+.24smile.org'
   - '+.25u.com'
@@ -30970,6 +30973,7 @@ payload:
   - '+.marxist.com'
   - '+.marxist.net'
   - '+.marxists.org'
+  - '+.mas.to'
   - '+.mash.to'
   - '+.mashable.com'
   - '+.maskedip.com'
@@ -31198,6 +31202,7 @@ payload:
   - '+.movements.org'
   - '+.moves-export.com'
   - '+.moviefap.com'
+  - '+.mozilla.ai'
   - '+.mozilla.org'
   - '+.moztw.org'
   - '+.mp3buscador.com'
@@ -31352,6 +31357,7 @@ payload:
   - '+.ned.org'
   - '+.nekoslovakia.net'
   - '+.neo-miracle.com'
+  - '+.neodb.social'
   - '+.neoforged.net'
   - '+.neowin.net'
   - '+.nephobox.com'
