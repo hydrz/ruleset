@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-05-28 02:48:14
+# UPDATED: 2026-06-01 02:26:46
 # DOMAIN: 124
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 34034
+# DOMAIN-SUFFIX: 34072
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # PROCESS-NAME: 1
-# TOTAL: 34311
+# TOTAL: 34349
 payload:
   - DOMAIN,1password.drift.click
   - DOMAIN,adobeereg.com
@@ -3041,7 +3041,6 @@ payload:
   - DOMAIN-SUFFIX,bangkokstreetwhores.com
   - DOMAIN-SUFFIX,bangor-university-london.ac.uk
   - DOMAIN-SUFFIX,bangor.ac.uk
-  - DOMAIN-SUFFIX,bangumi.tv
   - DOMAIN-SUFFIX,bangyourwife.com
   - DOMAIN-SUFFIX,bank-arzamas.ru
   - DOMAIN-SUFFIX,bank-credit-suisse-moscow.ru
@@ -3635,7 +3634,6 @@ payload:
   - DOMAIN-SUFFIX,bftv.ac.uk
   - DOMAIN-SUFFIX,bgc.ac.uk
   - DOMAIN-SUFFIX,bgicdn.com
-  - DOMAIN-SUFFIX,bgm.tv
   - DOMAIN-SUFFIX,bgov.com
   - DOMAIN-SUFFIX,bgr.in
   - DOMAIN-SUFFIX,bgs.ac.uk
@@ -5718,7 +5716,6 @@ payload:
   - DOMAIN-SUFFIX,chid.com.mm
   - DOMAIN-SUFFIX,chigroup.ac.uk
   - DOMAIN-SUFFIX,chihair-straightener.com
-  - DOMAIN-SUFFIX,chii.in
   - DOMAIN-SUFFIX,chikiporn.com
   - DOMAIN-SUFFIX,chikubank.co.jp
   - DOMAIN-SUFFIX,chilbolton.ac.uk
@@ -7568,7 +7565,6 @@ payload:
   - DOMAIN-SUFFIX,douzinnsi-eromannga.com
   - DOMAIN-SUFFIX,dovercollege.ac.uk
   - DOMAIN-SUFFIX,dovertechnicalcollege.ac.uk
-  - DOMAIN-SUFFIX,dowjones.io
   - DOMAIN-SUFFIX,dowjoneson.com
   - DOMAIN-SUFFIX,download.com
   - DOMAIN-SUFFIX,download.qatp1.net
@@ -8298,6 +8294,7 @@ payload:
   - DOMAIN-SUFFIX,electronicsignature.ru
   - DOMAIN-SUFFIX,electronjs.org
   - DOMAIN-SUFFIX,element.io
+  - DOMAIN-SUFFIX,elementary.io
   - DOMAIN-SUFFIX,elephantlist.com
   - DOMAIN-SUFFIX,elephantsdream.org
   - DOMAIN-SUFFIX,elephanttube.com
@@ -10621,6 +10618,7 @@ payload:
   - DOMAIN-SUFFIX,gnailapp.sbs
   - DOMAIN-SUFFIX,gnatwork.ac.uk
   - DOMAIN-SUFFIX,gnom-cham.com
+  - DOMAIN-SUFFIX,gnome.org
   - DOMAIN-SUFFIX,gnu.org
   - DOMAIN-SUFFIX,gnzi.xyz
   - DOMAIN-SUFFIX,gnzi1.top
@@ -11512,6 +11510,7 @@ payload:
   - DOMAIN-SUFFIX,helf.ac.uk
   - DOMAIN-SUFFIX,hellofuture.ac.uk
   - DOMAIN-SUFFIX,hellokittybeats.com
+  - DOMAIN-SUFFIX,hellomoto.com
   - DOMAIN-SUFFIX,hellosmartbook.com
   - DOMAIN-SUFFIX,hellporno.com
   - DOMAIN-SUFFIX,hellven.net
@@ -11766,7 +11765,6 @@ payload:
   - DOMAIN-SUFFIX,hibiki-cast.jp
   - DOMAIN-SUFFIX,hiddenhistorieswwi.ac.uk
   - DOMAIN-SUFFIX,hiddenvoyeurspy.com
-  - DOMAIN-SUFFIX,hiddify.com
   - DOMAIN-SUFFIX,hidefporn.ws
   - DOMAIN-SUFFIX,hidive.com
   - DOMAIN-SUFFIX,hifacebook.info
@@ -14167,6 +14165,7 @@ payload:
   - DOMAIN-SUFFIX,kclwave.ac.uk
   - DOMAIN-SUFFIX,kcollege.ac.uk
   - DOMAIN-SUFFIX,kcqsw-na.sbs
+  - DOMAIN-SUFFIX,kde.org
   - DOMAIN-SUFFIX,kdfuli.com
   - DOMAIN-SUFFIX,kdy202312.shop
   - DOMAIN-SUFFIX,ke-westyorkshire.ac.uk
@@ -14876,6 +14875,7 @@ payload:
   - DOMAIN-SUFFIX,livinglegacies1914-18.ac.uk
   - DOMAIN-SUFFIX,livingwithmachines.ac.uk
   - DOMAIN-SUFFIX,livingyourambition.com
+  - DOMAIN-SUFFIX,livinno.org
   - DOMAIN-SUFFIX,livjm.ac.uk
   - DOMAIN-SUFFIX,livrariart.com.br
   - DOMAIN-SUFFIX,lizardporn.com
@@ -15168,6 +15168,7 @@ payload:
   - DOMAIN-SUFFIX,lww-cetl.ac.uk
   - DOMAIN-SUFFIX,lwwcn.buzz
   - DOMAIN-SUFFIX,lwwcn.xyz
+  - DOMAIN-SUFFIX,lxqt-project.org
   - DOMAIN-SUFFIX,lxxlxx.com
   - DOMAIN-SUFFIX,ly.gov.tw
   - DOMAIN-SUFFIX,lyellcentre.ac.uk
@@ -15577,6 +15578,7 @@ payload:
   - DOMAIN-SUFFIX,mat6tube.com
   - DOMAIN-SUFFIX,match.ac.uk
   - DOMAIN-SUFFIX,matchmover.com
+  - DOMAIN-SUFFIX,mate-desktop.org
   - DOMAIN-SUFFIX,materials.ac.uk
   - DOMAIN-SUFFIX,materialsnexus.ac.uk
   - DOMAIN-SUFFIX,mathcentre.ac.uk
@@ -16616,7 +16618,31 @@ payload:
   - DOMAIN-SUFFIX,motherwell.ac.uk
   - DOMAIN-SUFFIX,motiongraphicsandmore.com
   - DOMAIN-SUFFIX,motionpictureser.com
+  - DOMAIN-SUFFIX,moto.com
   - DOMAIN-SUFFIX,motolia.com
+  - DOMAIN-SUFFIX,motorola.ca
+  - DOMAIN-SUFFIX,motorola.cl
+  - DOMAIN-SUFFIX,motorola.co
+  - DOMAIN-SUFFIX,motorola.co.id
+  - DOMAIN-SUFFIX,motorola.co.jp
+  - DOMAIN-SUFFIX,motorola.co.th
+  - DOMAIN-SUFFIX,motorola.co.uk
+  - DOMAIN-SUFFIX,motorola.com
+  - DOMAIN-SUFFIX,motorola.com.au
+  - DOMAIN-SUFFIX,motorola.com.co
+  - DOMAIN-SUFFIX,motorola.com.pe
+  - DOMAIN-SUFFIX,motorola.com.pr
+  - DOMAIN-SUFFIX,motorola.de
+  - DOMAIN-SUFFIX,motorola.es
+  - DOMAIN-SUFFIX,motorola.fr
+  - DOMAIN-SUFFIX,motorola.gr
+  - DOMAIN-SUFFIX,motorola.in
+  - DOMAIN-SUFFIX,motorola.it
+  - DOMAIN-SUFFIX,motorola.net
+  - DOMAIN-SUFFIX,motorola.vn
+  - DOMAIN-SUFFIX,motorolacareers.com
+  - DOMAIN-SUFFIX,motorolanews.com
+  - DOMAIN-SUFFIX,motorolasolutions.com
   - DOMAIN-SUFFIX,motorshowblog.com
   - DOMAIN-SUFFIX,mottainai.info
   - DOMAIN-SUFFIX,moulton.ac.uk
@@ -18450,6 +18476,7 @@ payload:
   - DOMAIN-SUFFIX,ootbstudio.co.kr
   - DOMAIN-SUFFIX,op.gg
   - DOMAIN-SUFFIX,op7979.com
+  - DOMAIN-SUFFIX,opac-project.eu
   - DOMAIN-SUFFIX,opdems.ac.uk
   - DOMAIN-SUFFIX,open.ac.uk
   - DOMAIN-SUFFIX,openamt.com
@@ -19284,6 +19311,7 @@ payload:
   - DOMAIN-SUFFIX,plansondemand.com
   - DOMAIN-SUFFIX,plant-phenomics.ac.uk
   - DOMAIN-SUFFIX,plantsvszombies2.com
+  - DOMAIN-SUFFIX,plasma-mobile.org
   - DOMAIN-SUFFIX,plasticlabs.com
   - DOMAIN-SUFFIX,plastics-cadcam.com
   - DOMAIN-SUFFIX,platiecom.ru
@@ -23155,6 +23183,7 @@ payload:
   - DOMAIN-SUFFIX,syntheticbiology.ac.uk
   - DOMAIN-SUFFIX,sysinternals.com
   - DOMAIN-SUFFIX,sysmic.ac.uk
+  - DOMAIN-SUFFIX,system76.com
   - DOMAIN-SUFFIX,systemicrisk.ac.uk
   - DOMAIN-SUFFIX,syzbj36.xyz
   - DOMAIN-SUFFIX,szabadeuropa.hu
@@ -26369,6 +26398,7 @@ payload:
   - DOMAIN-SUFFIX,xenoblade.com
   - DOMAIN-SUFFIX,xeon.com
   - DOMAIN-SUFFIX,xfantazy.com
+  - DOMAIN-SUFFIX,xfce.org
   - DOMAIN-SUFFIX,xfemaledom.com
   - DOMAIN-SUFFIX,xfockers.com
   - DOMAIN-SUFFIX,xfreehd.com
@@ -26403,6 +26433,7 @@ payload:
   - DOMAIN-SUFFIX,xiaoshuobb.life
   - DOMAIN-SUFFIX,xiaoyaoge.xyz
   - DOMAIN-SUFFIX,xie56.xyz
+  - DOMAIN-SUFFIX,xin21.xyz
   - DOMAIN-SUFFIX,xinaia-av.buzz
   - DOMAIN-SUFFIX,xindelu.com
   - DOMAIN-SUFFIX,xinfhw.com
@@ -28014,6 +28045,7 @@ payload:
   - DOMAIN-SUFFIX,arunachalforests.gov.in
   - DOMAIN-SUFFIX,arvanstorage.ir
   - DOMAIN-SUFFIX,arweave.org
+  - DOMAIN-SUFFIX,as.mr
   - DOMAIN-SUFFIX,asacp.org
   - DOMAIN-SUFFIX,asdfg.jp
   - DOMAIN-SUFFIX,asg.to
@@ -28112,6 +28144,7 @@ payload:
   - DOMAIN-SUFFIX,bangdream.space
   - DOMAIN-SUFFIX,bangkokpost.com
   - DOMAIN-SUFFIX,bangumi.moe
+  - DOMAIN-SUFFIX,bangumi.tv
   - DOMAIN-SUFFIX,bangyoulater.com
   - DOMAIN-SUFFIX,bankmobilevibe.com
   - DOMAIN-SUFFIX,bannednews.org
@@ -28195,6 +28228,7 @@ payload:
   - DOMAIN-SUFFIX,beyondfirewall.com
   - DOMAIN-SUFFIX,bfnn.org
   - DOMAIN-SUFFIX,bfsh.hk
+  - DOMAIN-SUFFIX,bgm.tv
   - DOMAIN-SUFFIX,bgme.me
   - DOMAIN-SUFFIX,bgvpn.com
   - DOMAIN-SUFFIX,bianlei.com
@@ -28568,6 +28602,7 @@ payload:
   - DOMAIN-SUFFIX,cherrysave.com
   - DOMAIN-SUFFIX,chhongbi.org
   - DOMAIN-SUFFIX,chicagoncmtv.com
+  - DOMAIN-SUFFIX,chii.in
   - DOMAIN-SUFFIX,china-mmm.net
   - DOMAIN-SUFFIX,china-review.com.ua
   - DOMAIN-SUFFIX,china-week.com
@@ -28734,7 +28769,6 @@ payload:
   - DOMAIN-SUFFIX,cn6.eu
   - DOMAIN-SUFFIX,cna.com.tw
   - DOMAIN-SUFFIX,cnabc.com
-  - DOMAIN-SUFFIX,cnbc.com
   - DOMAIN-SUFFIX,cnbeta.com.tw
   - DOMAIN-SUFFIX,cnd.org
   - DOMAIN-SUFFIX,cnet.com
@@ -29084,6 +29118,7 @@ payload:
   - DOMAIN-SUFFIX,doujincafe.com
   - DOMAIN-SUFFIX,dowei.org
   - DOMAIN-SUFFIX,dowjones.com
+  - DOMAIN-SUFFIX,dowjones.io
   - DOMAIN-SUFFIX,download.dappcdn.com
   - DOMAIN-SUFFIX,dphk.org
   - DOMAIN-SUFFIX,dpool.top
@@ -29730,6 +29765,7 @@ payload:
   - DOMAIN-SUFFIX,geekheart.info
   - DOMAIN-SUFFIX,gekikame.com
   - DOMAIN-SUFFIX,gelbooru.com
+  - DOMAIN-SUFFIX,gencraft.com
   - DOMAIN-SUFFIX,generated.photos
   - DOMAIN-SUFFIX,geni.us
   - DOMAIN-SUFFIX,genius.com
@@ -30053,6 +30089,7 @@ payload:
   - DOMAIN-SUFFIX,hicairo.com
   - DOMAIN-SUFFIX,hiccears.com
   - DOMAIN-SUFFIX,hidden-advent.org
+  - DOMAIN-SUFFIX,hiddify.com
   - DOMAIN-SUFFIX,hide.me
   - DOMAIN-SUFFIX,hidecloud.com
   - DOMAIN-SUFFIX,hidein.net
@@ -33489,6 +33526,7 @@ payload:
   - DOMAIN-SUFFIX,vbstatic.co
   - DOMAIN-SUFFIX,vcf-online.org
   - DOMAIN-SUFFIX,vcfbuilder.org
+  - DOMAIN-SUFFIX,veed.io
   - DOMAIN-SUFFIX,vegasred.com
   - DOMAIN-SUFFIX,velkaepocha.sk
   - DOMAIN-SUFFIX,venbbs.com
