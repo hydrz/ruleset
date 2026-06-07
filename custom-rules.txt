@@ -54,6 +54,7 @@ ChinaDNS.list + IP-CIDR,123.125.81.6/32
 ChinaDNS.list + IP-CIDR,140.207.198.6/32
 
 HongKong.list + DOMAIN-SUFFIX,.hk
+
 Copilot.list + DOMAIN-SUFFIX,githubcopilot.com
 
 Jsdelivr.list + DOMAIN-SUFFIX,globalping.io
@@ -150,3 +151,4 @@ CloudflareTunnel.list + IP-CIDR6,2606:4700:a9::8/128
 CloudflareTunnel.list + IP-CIDR6,2606:4700:a9::9/128
 CloudflareTunnel.list + IP-CIDR6,2606:4700:a9::10/128
 
+Claude.list + DOMAIN-SUFFIX,claude.com

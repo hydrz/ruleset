@@ -3,12 +3,7 @@
   "rules": [
     {
       "domain_suffix": [
-        "anthropic.com",
-        "claude.ai",
         "claude.com"
-      ],
-      "domain": [
-        "cdn.usefathom.com"
       ]
     }
   ]
