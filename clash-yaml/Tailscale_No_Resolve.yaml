@@ -1,5 +1,5 @@
 # Custom rules for Tailscale_No_Resolve
-# Generated at 2026-06-15 04:35:08
+# Generated at 2026-06-22 04:35:20
 payload:
   - DOMAIN-SUFFIX,.tailscale.com
   - IP-CIDR,192.200.0.0/24
