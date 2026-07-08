@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-06-30 02:44:53
-# DOMAIN: 125
+# UPDATED: 2026-07-08 03:48:17
+# DOMAIN: 124
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 34508
+# DOMAIN-SUFFIX: 34526
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # PROCESS-NAME: 1
-# TOTAL: 34786
+# TOTAL: 34803
 payload:
   - '1password.drift.click'
   - 'adobeereg.com'
@@ -57,7 +57,6 @@ payload:
   - 'hub.slarker.me'
   - 'i.jeded.com'
   - 'imperial.insendi.com'
-  - 'ingest.apple-studies.com'
   - 'lgelectronics.122.2o7.net'
   - 'linkedin.sc.omtrdc.net'
   - 'live-patreon-marketing.pantheonsite.io'
@@ -2018,6 +2017,7 @@ payload:
   - '+.apple-pay.wang'
   - '+.apple-store.net'
   - '+.apple-store.wang'
+  - '+.apple-studies.com'
   - '+.apple-usa.net'
   - '+.apple.ae'
   - '+.apple.at'
@@ -2547,6 +2547,7 @@ payload:
   - '+.atlassian-dev.net'
   - '+.atlassian.com'
   - '+.atlassian.net'
+  - '+.atmeta.com'
   - '+.atokara.jp'
   - '+.atom.io'
   - '+.atomyze.ru'
@@ -2927,6 +2928,7 @@ payload:
   - '+.aziani.com'
   - '+.aznude.com'
   - '+.azubu.tv'
+  - '+.azure-api.net'
   - '+.azure-devices-int.net'
   - '+.azure-devices.net'
   - '+.azure-dns.com'
@@ -2962,6 +2964,7 @@ payload:
   - '+.azureserviceprofiler.com'
   - '+.azuresmartspaces.net'
   - '+.azurestackvalidation.com'
+  - '+.azurestaticapps.net'
   - '+.b-cdn.net'
   - '+.b-eroland.net'
   - '+.b-ok.africa'
@@ -3912,6 +3915,7 @@ payload:
   - '+.blackstonespoliceservice.com'
   - '+.blacktowhite.net'
   - '+.blake.ac.uk'
+  - '+.blanc.ru'
   - '+.blaoshi.cc'
   - '+.blast.io'
   - '+.blazor.net'
@@ -4593,6 +4597,7 @@ payload:
   - '+.bostoncentre.ac.uk'
   - '+.boswp.com'
   - '+.botframework.com'
+  - '+.botim.me'
   - '+.botmechanic.io'
   - '+.botorch.org'
   - '+.botstop.com'
@@ -6303,6 +6308,7 @@ payload:
   - '+.coova.net'
   - '+.coova.org'
   - '+.copac.ac.uk'
+  - '+.copilot.com'
   - '+.copim.ac.uk'
   - '+.copior.ac.uk'
   - '+.copro.pw'
@@ -12056,6 +12062,9 @@ payload:
   - '+.horizontal-systems.com'
   - '+.horizontalglue.com'
   - '+.horizontalsystems.com'
+  - '+.hornet.com'
+  - '+.hornetapp.com'
+  - '+.hornetx.com'
   - '+.horniman.ac.uk'
   - '+.hornyasianmilfs.com'
   - '+.hornybitches.org'
@@ -14973,6 +14982,7 @@ payload:
   - '+.listerpostgraduate.ac.uk'
   - '+.listinganalytics.net'
   - '+.litbus-anime.com'
+  - '+.litecoin.org'
   - '+.literatumonline.com'
   - '+.literotica.com'
   - '+.litt.ac.uk'
@@ -17527,7 +17537,9 @@ payload:
   - '+.netflixtechblog.com'
   - '+.netlab.ac.uk'
   - '+.netlify.com'
+  - '+.netlifydns.com'
   - '+.netlifystatus.com'
+  - '+.netlifyusercontent.com'
   - '+.netlock.hu'
   - '+.netname.com.br'
   - '+.netpornsex.com'
@@ -18174,6 +18186,7 @@ payload:
   - '+.ntec.ac.uk'
   - '+.ntfs.ac.uk'
   - '+.ntidagenham.ac.uk'
+  - '+.ntl.fyi'
   - '+.ntnews.com.au'
   - '+.ntp-os01.ocn.ad.jp'
   - '+.ntp-tk01.ocn.ad.jp'
@@ -19012,6 +19025,8 @@ payload:
   - '+.paulmelloncentre.ac.uk'
   - '+.paulsimon-music.com'
   - '+.pavpal.com'
+  - '+.pawchive.pw'
+  - '+.pawchive.st'
   - '+.paxlicense.org'
   - '+.paydiant.com'
   - '+.payecom.ru'
@@ -29709,6 +29724,7 @@ payload:
   - '+.experts-univers.com'
   - '+.exploader.net'
   - '+.expofutures.com'
+  - '+.expressnews.com'
   - '+.expressvpn.com'
   - '+.exrates.me'
   - '+.extmatrix.com'
@@ -34161,6 +34177,7 @@ payload:
   - '+.webrush.net'
   - '+.webs-tv.net'
   - '+.websdr.org'
+  - '+.webshare.io'
   - '+.website.new'
   - '+.websitepulse.com'
   - '+.websnapr.com'
