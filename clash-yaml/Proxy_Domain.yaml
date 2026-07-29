@@ -1,13 +1,13 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-07-22 03:10:58
+# UPDATED: 2026-07-26 03:00:05
 # DOMAIN: 9
 # DOMAIN-KEYWORD: 26
-# DOMAIN-SUFFIX: 6751
+# DOMAIN-SUFFIX: 6755
 # IP-CIDR: 93
 # IP-CIDR6: 4
-# TOTAL: 6883
+# TOTAL: 6887
 payload:
   - 'api.waqi.info'
   - 'aqi.aqicn.org'
@@ -1132,6 +1132,7 @@ payload:
   - '+.cienen.com'
   - '+.cineastentreff.de'
   - '+.cipfg.org'
+  - '+.circle19.org'
   - '+.circlethebayfortibet.org'
   - '+.cirosantilli.com'
   - '+.citizencn.com'
@@ -3164,6 +3165,7 @@ payload:
   - '+.kanzhongguo.eu'
   - '+.kaotic.com'
   - '+.karayou.com'
+  - '+.kards.com'
   - '+.karkhung.com'
   - '+.karmapa-teachings.org'
   - '+.karmapa.org'
@@ -5669,6 +5671,7 @@ payload:
   - '+.toh.info'
   - '+.token.im'
   - '+.tokenlon.im'
+  - '+.tokenplus.app'
   - '+.tokyo-247.com'
   - '+.tokyo-hot.com'
   - '+.tokyocn.com'
@@ -6701,6 +6704,7 @@ payload:
   - '+.zengjinyan.org'
   - '+.zenmate.com'
   - '+.zenmate.com.ru'
+  - '+.zenmux.ai'
   - '+.zerohedge.com'
   - '+.zeronet.io'
   - '+.zeutch.com'
