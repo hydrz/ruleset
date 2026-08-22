@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-08-14 02:55:26
+# UPDATED: 2026-08-22 02:30:02
 # DOMAIN: 128
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 34719
+# DOMAIN-SUFFIX: 34734
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # PROCESS-NAME: 1
-# TOTAL: 35000
+# TOTAL: 35015
 DOMAIN,1password.drift.click
 DOMAIN,adobeereg.com
 DOMAIN,agb9r0ad.qllfkl.com
@@ -517,6 +517,7 @@ DOMAIN-SUFFIX,592r.com
 DOMAIN-SUFFIX,59mvmv.com
 DOMAIN-SUFFIX,5axis-machining.com
 DOMAIN-SUFFIX,5beatsbydre.com
+DOMAIN-SUFFIX,5ch.io
 DOMAIN-SUFFIX,5ch.net
 DOMAIN-SUFFIX,5fang.cc
 DOMAIN-SUFFIX,5itv.tv
@@ -1755,6 +1756,7 @@ DOMAIN-SUFFIX,amazonstudiosguilds.com
 DOMAIN-SUFFIX,amazontrust.com
 DOMAIN-SUFFIX,amazonvideo.cc
 DOMAIN-SUFFIX,amazonvideodirect.com
+DOMAIN-SUFFIX,amazonwebservices.com
 DOMAIN-SUFFIX,amazonworkdocs.com
 DOMAIN-SUFFIX,ambs.ac.uk
 DOMAIN-SUFFIX,amc.com
@@ -7741,6 +7743,7 @@ DOMAIN-SUFFIX,drdreprobeatssale.com
 DOMAIN-SUFFIX,dream-cdt.ac.uk
 DOMAIN-SUFFIX,dreambmw.ca
 DOMAIN-SUFFIX,dreamforce.com
+DOMAIN-SUFFIX,dreamgen.com
 DOMAIN-SUFFIX,dreammovies.com
 DOMAIN-SUFFIX,dreamorder.com
 DOMAIN-SUFFIX,dreamteamfc.com
@@ -9331,6 +9334,7 @@ DOMAIN-SUFFIX,fans-here.com
 DOMAIN-SUFFIX,fans17.com
 DOMAIN-SUFFIX,fans66.tw
 DOMAIN-SUFFIX,fansking.tw
+DOMAIN-SUFFIX,fansly.com
 DOMAIN-SUFFIX,fansnudes.com
 DOMAIN-SUFFIX,fansone.co
 DOMAIN-SUFFIX,fanspot.jp
@@ -17870,6 +17874,8 @@ DOMAIN-SUFFIX,nichost.ru
 DOMAIN-SUFFIX,nicis.ac.uk
 DOMAIN-SUFFIX,nickscipio.com
 DOMAIN-SUFFIX,nicky.xxx
+DOMAIN-SUFFIX,nico.ms
+DOMAIN-SUFFIX,nicochannel.jp
 DOMAIN-SUFFIX,nicodic.jp
 DOMAIN-SUFFIX,nicolepeters.com
 DOMAIN-SUFFIX,nicomanga.jp
@@ -18161,6 +18167,7 @@ DOMAIN-SUFFIX,nonlinearnastran.com
 DOMAIN-SUFFIX,nonstopfap.com
 DOMAIN-SUFFIX,noodlemagazine.com
 DOMAIN-SUFFIX,noosferabank.ru
+DOMAIN-SUFFIX,nordcdn.com
 DOMAIN-SUFFIX,norfolkcove.ac.uk
 DOMAIN-SUFFIX,norland.ac.uk
 DOMAIN-SUFFIX,normanmanagedservices.ac.uk
@@ -18200,6 +18207,7 @@ DOMAIN-SUFFIX,northumberland.ac.uk
 DOMAIN-SUFFIX,northumbria.ac.uk
 DOMAIN-SUFFIX,norton.com
 DOMAIN-SUFFIX,norwichresearchpark.ac.uk
+DOMAIN-SUFFIX,notegpt.io
 DOMAIN-SUFFIX,noticias-rt.com
 DOMAIN-SUFFIX,notimundo.press
 DOMAIN-SUFFIX,notion-static.com
@@ -18223,6 +18231,7 @@ DOMAIN-SUFFIX,nottinghamknowledge.ac.uk
 DOMAIN-SUFFIX,nottinghamtrentadfs.ac.uk
 DOMAIN-SUFFIX,nottm-coll.ac.uk
 DOMAIN-SUFFIX,nottsmaternity.ac.uk
+DOMAIN-SUFFIX,novelai.net
 DOMAIN-SUFFIX,novella.ac.uk
 DOMAIN-SUFFIX,noveltrove.com
 DOMAIN-SUFFIX,novids.com
@@ -21279,6 +21288,7 @@ DOMAIN-SUFFIX,rsc-yorkshire-humberside.ac.uk
 DOMAIN-SUFFIX,rscem.ac.uk
 DOMAIN-SUFFIX,rsd-exeter.ac.uk
 DOMAIN-SUFFIX,rse.ac.uk
+DOMAIN-SUFFIX,rsg.ms
 DOMAIN-SUFFIX,rsg.sc
 DOMAIN-SUFFIX,rshb.ru
 DOMAIN-SUFFIX,rsk.co
@@ -21411,6 +21421,7 @@ DOMAIN-SUFFIX,rutracker.cc
 DOMAIN-SUFFIX,rutracker.cr
 DOMAIN-SUFFIX,rutracker.me
 DOMAIN-SUFFIX,rutracker.nl
+DOMAIN-SUFFIX,rutracker.wiki
 DOMAIN-SUFFIX,rutrecker.net
 DOMAIN-SUFFIX,rutube.sport
 DOMAIN-SUFFIX,rutubelist.ru
@@ -21637,6 +21648,8 @@ DOMAIN-SUFFIX,sbusinesslondon.ac.uk
 DOMAIN-SUFFIX,sbux.com.my
 DOMAIN-SUFFIX,sbuxcard.com
 DOMAIN-SUFFIX,sc-cdn.net
+DOMAIN-SUFFIX,sc-gw.com
+DOMAIN-SUFFIX,sc-static.net
 DOMAIN-SUFFIX,sc-toolkit.ac.uk
 DOMAIN-SUFFIX,sc.com
 DOMAIN-SUFFIX,sc1.ac.uk
@@ -23707,6 +23720,7 @@ DOMAIN-SUFFIX,takporn.com
 DOMAIN-SUFFIX,talantix.ru
 DOMAIN-SUFFIX,talentlens.com
 DOMAIN-SUFFIX,taleofthenight.com
+DOMAIN-SUFFIX,talkai.info
 DOMAIN-SUFFIX,talkinghealthmatters.ac.uk
 DOMAIN-SUFFIX,talkingkotlin.com
 DOMAIN-SUFFIX,talksport.com
@@ -26572,7 +26586,6 @@ DOMAIN-SUFFIX,windowsuem.com
 DOMAIN-SUFFIX,windsor-forest.ac.uk
 DOMAIN-SUFFIX,windsurf.build
 DOMAIN-SUFFIX,windsurf.com
-DOMAIN-SUFFIX,windy.com
 DOMAIN-SUFFIX,wing.com
 DOMAIN-SUFFIX,winhec.com
 DOMAIN-SUFFIX,winhec.net
@@ -32248,6 +32261,7 @@ DOMAIN-SUFFIX,oklink.com
 DOMAIN-SUFFIX,okpool.me
 DOMAIN-SUFFIX,okx.com
 DOMAIN-SUFFIX,old-cat.net
+DOMAIN-SUFFIX,oldmapsonline.org
 DOMAIN-SUFFIX,olehdtv.com
 DOMAIN-SUFFIX,olelive.com
 DOMAIN-SUFFIX,olevod.com
@@ -34466,6 +34480,7 @@ DOMAIN-SUFFIX,willw.net
 DOMAIN-SUFFIX,wilsoncenter.org
 DOMAIN-SUFFIX,windowsphoneme.com
 DOMAIN-SUFFIX,windscribe.com
+DOMAIN-SUFFIX,windy.com
 DOMAIN-SUFFIX,wingamestore.com
 DOMAIN-SUFFIX,wingy.site
 DOMAIN-SUFFIX,winning11.com
