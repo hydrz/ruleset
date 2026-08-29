@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-08-22 02:30:02
+# UPDATED: 2026-08-28 10:00:37
 # DOMAIN: 128
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 34734
+# DOMAIN-SUFFIX: 34743
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # PROCESS-NAME: 1
-# TOTAL: 35015
+# TOTAL: 35024
 payload:
   - '1password.drift.click'
   - 'adobeereg.com'
@@ -899,6 +899,7 @@ payload:
   - '+.adguard.info'
   - '+.adguard.io'
   - '+.adguardaccount.com'
+  - '+.adguardaccount.net'
   - '+.adguardcdn.com'
   - '+.adguardvpn.com'
   - '+.adhelpnews.com'
@@ -5679,7 +5680,6 @@ payload:
   - '+.chatango.com'
   - '+.chatgpt.com'
   - '+.chatgpt.livekit.cloud'
-  - '+.chatgpt.site'
   - '+.chatgptvideo.xyz'
   - '+.chatgptvideob.buzz'
   - '+.chatsex.xxx'
@@ -11403,6 +11403,7 @@ payload:
   - '+.h-webtoon.com'
   - '+.h0930.com'
   - '+.h18ani1.vip'
+  - '+.h264.io'
   - '+.h2o.ai'
   - '+.h2porn.com'
   - '+.habr.com'
@@ -12251,7 +12252,6 @@ payload:
   - '+.hp-mns.com'
   - '+.hp-printing.com'
   - '+.hp-webplatform.com'
-  - '+.hp-ww.com'
   - '+.hp.company'
   - '+.hp.io'
   - '+.hp3d.com'
@@ -18967,6 +18967,7 @@ payload:
   - '+.oursexgames.com'
   - '+.ourshdtv.com'
   - '+.ourshemales.com'
+  - '+.ouryahoo.com'
   - '+.oustudios.ac.uk'
   - '+.out-app-purchase.com'
   - '+.outbound.io'
@@ -21605,7 +21606,6 @@ payload:
   - '+.saynow.com'
   - '+.sb-mobile.jp'
   - '+.sb-telecom.net'
-  - '+.sb.sb'
   - '+.sb24.com'
   - '+.sbank.ir'
   - '+.sbc.ac.uk'
@@ -27531,6 +27531,7 @@ payload:
   - '+.yahoodns.net'
   - '+.yahoofinance.com'
   - '+.yahoohealth.com'
+  - '+.yahooinc.com'
   - '+.yahoomusic.com'
   - '+.yahoosportsbook.com'
   - '+.yaklass.ru'
@@ -28559,6 +28560,7 @@ payload:
   - '+.api.ai'
   - '+.api.mixpanel.com'
   - '+.api.moomoobull.com'
+  - '+.api.shuaiapi.com'
   - '+.apiary.io'
   - '+.apigee.com'
   - '+.apk-dl.com'
@@ -28947,6 +28949,7 @@ payload:
   - '+.breaking911.com'
   - '+.breakingtweets.com'
   - '+.breakwall.net'
+  - '+.briarproject.org'
   - '+.briefdream.com'
   - '+.briian.com'
   - '+.brill.com'
@@ -29161,6 +29164,7 @@ payload:
   - '+.chapm25.com'
   - '+.character.ai'
   - '+.chat.com'
+  - '+.chatgpt.site'
   - '+.chatnook.com'
   - '+.chatpdf.com'
   - '+.chaturbate.com'
@@ -30723,6 +30727,7 @@ payload:
   - '+.himemix.net'
   - '+.hindustantimes.com'
   - '+.hinet.net'
+  - '+.historylines.net'
   - '+.hitbtc.com'
   - '+.hitomi.la'
   - '+.hitun.io'
@@ -31335,6 +31340,7 @@ payload:
   - '+.kir.jp'
   - '+.kissjav.com'
   - '+.kiwi.kz'
+  - '+.kiwix.org'
   - '+.kk-whys.co.jp'
   - '+.kkbox.com'
   - '+.kknews.cc'
@@ -31662,6 +31668,7 @@ payload:
   - '+.mayimayi.com'
   - '+.mcadforums.com'
   - '+.mcaf.ee'
+  - '+.mceindex.com'
   - '+.mcfog.com'
   - '+.mcreasite.com'
   - '+.mcusercontent.com'
@@ -32959,6 +32966,7 @@ payload:
   - '+.savevid.com'
   - '+.say2.info'
   - '+.sb-cd.com'
+  - '+.sb.sb'
   - '+.sbme.me'
   - '+.sbs.com.au'
   - '+.sbti.unun.dev'
@@ -34573,6 +34581,7 @@ payload:
   - '+.x24hr.com'
   - '+.x365x.com'
   - '+.x3guide.com'
+  - '+.x86.fr'
   - '+.xanga.com'
   - '+.xbabe.com'
   - '+.xbookcn.com'
