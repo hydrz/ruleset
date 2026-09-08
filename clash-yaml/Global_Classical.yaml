@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2026-09-01 06:19:40
+# UPDATED: 2026-09-08 05:03:08
 # DOMAIN: 128
 # DOMAIN-KEYWORD: 36
-# DOMAIN-SUFFIX: 34748
+# DOMAIN-SUFFIX: 34762
 # IP-CIDR: 112
 # IP-CIDR6: 4
 # PROCESS-NAME: 1
-# TOTAL: 35029
+# TOTAL: 35043
 payload:
   - DOMAIN,1password.drift.click
   - DOMAIN,adobeereg.com
@@ -3931,6 +3931,7 @@ payload:
   - DOMAIN-SUFFIX,blackboxgames.com
   - DOMAIN-SUFFIX,blackburn.ac.uk
   - DOMAIN-SUFFIX,blackcountryandmarchesiot.ac.uk
+  - DOMAIN-SUFFIX,blackedraw.com
   - DOMAIN-SUFFIX,blackfridaydrebeatsnew.com
   - DOMAIN-SUFFIX,blackfridaydrebeatsshop.com
   - DOMAIN-SUFFIX,blackhomeporn.com
@@ -6596,7 +6597,6 @@ payload:
   - DOMAIN-SUFFIX,ctan.org
   - DOMAIN-SUFFIX,ctc.ac.uk
   - DOMAIN-SUFFIX,ctcrm.ac.uk
-  - DOMAIN-SUFFIX,ctee.com.tw
   - DOMAIN-SUFFIX,ctfassets.net
   - DOMAIN-SUFFIX,ctg.ac.uk
   - DOMAIN-SUFFIX,ctk.ac.uk
@@ -10364,6 +10364,8 @@ payload:
   - DOMAIN-SUFFIX,gastrointestinalexam.com
   - DOMAIN-SUFFIX,gate.ac.uk
   - DOMAIN-SUFFIX,gate.cc
+  - DOMAIN-SUFFIX,gate.tv
+  - DOMAIN-SUFFIX,gateapi.io
   - DOMAIN-SUFFIX,gatedata.org
   - DOMAIN-SUFFIX,gateimg.com
   - DOMAIN-SUFFIX,gateio.live
@@ -11765,7 +11767,6 @@ payload:
   - DOMAIN-SUFFIX,hentai.pink
   - DOMAIN-SUFFIX,hentai.pro
   - DOMAIN-SUFFIX,hentai.toys
-  - DOMAIN-SUFFIX,hentai.tv
   - DOMAIN-SUFFIX,hentai0.com
   - DOMAIN-SUFFIX,hentai01.com
   - DOMAIN-SUFFIX,hentai2.net
@@ -16310,6 +16311,7 @@ payload:
   - DOMAIN-SUFFIX,milftube.pro
   - DOMAIN-SUFFIX,milftugs.com
   - DOMAIN-SUFFIX,milfvr.com
+  - DOMAIN-SUFFIX,milfy.com
   - DOMAIN-SUFFIX,milfzr.com
   - DOMAIN-SUFFIX,miliav.com
   - DOMAIN-SUFFIX,milkmanbook.com
@@ -22540,6 +22542,7 @@ payload:
   - DOMAIN-SUFFIX,slashdot.org
   - DOMAIN-SUFFIX,slavbank.ru
   - DOMAIN-SUFFIX,slavicstar.com
+  - DOMAIN-SUFFIX,slayed.com
   - DOMAIN-SUFFIX,slc.ac.uk
   - DOMAIN-SUFFIX,slc.tl
   - DOMAIN-SUFFIX,slcollege.ac.uk
@@ -23480,7 +23483,6 @@ payload:
   - DOMAIN-SUFFIX,superstem.ac.uk
   - DOMAIN-SUFFIX,supertop.co
   - DOMAIN-SUFFIX,superuser.com
-  - DOMAIN-SUFFIX,supjav.com
   - DOMAIN-SUFFIX,supply-chain.ac.uk
   - DOMAIN-SUFFIX,supplybestjerseys.com
   - DOMAIN-SUFFIX,support-uber.com
@@ -23699,7 +23701,6 @@ payload:
   - DOMAIN-SUFFIX,tagapie.com.tw
   - DOMAIN-SUFFIX,tagbank.ru
   - DOMAIN-SUFFIX,tags.ac.uk
-  - DOMAIN-SUFFIX,taiav.com
   - DOMAIN-SUFFIX,taiko.xyz
   - DOMAIN-SUFFIX,tail-f.com
   - DOMAIN-SUFFIX,tailf.com
@@ -24673,6 +24674,7 @@ payload:
   - DOMAIN-SUFFIX,turn.livekit.cloud
   - DOMAIN-SUFFIX,tusco.ru
   - DOMAIN-SUFFIX,tushy.com
+  - DOMAIN-SUFFIX,tushyraw.com
   - DOMAIN-SUFFIX,tuta.com
   - DOMAIN-SUFFIX,tuta.io
   - DOMAIN-SUFFIX,tutamail.com
@@ -25766,6 +25768,7 @@ payload:
   - DOMAIN-SUFFIX,vitukali.com
   - DOMAIN-SUFFIX,vivaxnxx.com
   - DOMAIN-SUFFIX,vixen.com
+  - DOMAIN-SUFFIX,vixengroup.com
   - DOMAIN-SUFFIX,vixvids.to
   - DOMAIN-SUFFIX,viznet.ac.uk
   - DOMAIN-SUFFIX,vk-apps.com
@@ -28198,6 +28201,8 @@ payload:
   - DOMAIN-SUFFIX,10conditionsoflove.com
   - DOMAIN-SUFFIX,10musume.com
   - DOMAIN-SUFFIX,111666.best
+  - DOMAIN-SUFFIX,123av.com
+  - DOMAIN-SUFFIX,123av.me
   - DOMAIN-SUFFIX,123rf.com
   - DOMAIN-SUFFIX,12bet.com
   - DOMAIN-SUFFIX,12vpn.com
@@ -29451,6 +29456,7 @@ payload:
   - DOMAIN-SUFFIX,csw.org.uk
   - DOMAIN-SUFFIX,ct.org.tw
   - DOMAIN-SUFFIX,ctao.org
+  - DOMAIN-SUFFIX,ctee.com.tw
   - DOMAIN-SUFFIX,ctfriend.net
   - DOMAIN-SUFFIX,ctinets.com
   - DOMAIN-SUFFIX,ctinews.com
@@ -30684,6 +30690,7 @@ payload:
   - DOMAIN-SUFFIX,helpzhuling.org
   - DOMAIN-SUFFIX,hembed.com
   - DOMAIN-SUFFIX,hentai.to
+  - DOMAIN-SUFFIX,hentai.tv
   - DOMAIN-SUFFIX,hentaitube.tv
   - DOMAIN-SUFFIX,hentaivideoworld.com
   - DOMAIN-SUFFIX,heqinglian.net
@@ -31492,6 +31499,7 @@ payload:
   - DOMAIN-SUFFIX,linpie.com
   - DOMAIN-SUFFIX,linux.do
   - DOMAIN-SUFFIX,linux.org.hk
+  - DOMAIN-SUFFIX,linux.sb
   - DOMAIN-SUFFIX,linuxtoy.org
   - DOMAIN-SUFFIX,lionsroar.com
   - DOMAIN-SUFFIX,lipuman.com
@@ -32880,6 +32888,7 @@ payload:
   - DOMAIN-SUFFIX,roblox.com
   - DOMAIN-SUFFIX,roboforex.com
   - DOMAIN-SUFFIX,robustnessiskey.com
+  - DOMAIN-SUFFIX,roc-taiwan.org
   - DOMAIN-SUFFIX,rocket-inc.net
   - DOMAIN-SUFFIX,rocket.chat
   - DOMAIN-SUFFIX,rocketbbs.com
@@ -32895,6 +32904,7 @@ payload:
   - DOMAIN-SUFFIX,rotten.com
   - DOMAIN-SUFFIX,rou.video
   - DOMAIN-SUFFIX,roucdn.link
+  - DOMAIN-SUFFIX,roushuwo.com
   - DOMAIN-SUFFIX,rpglogs.com
   - DOMAIN-SUFFIX,rsdlmonitor.com
   - DOMAIN-SUFFIX,rsf-chinese.org
@@ -33409,6 +33419,7 @@ payload:
   - DOMAIN-SUFFIX,superpages.com
   - DOMAIN-SUFFIX,supervpn.net
   - DOMAIN-SUFFIX,superzooi.com
+  - DOMAIN-SUFFIX,supjav.com
   - DOMAIN-SUFFIX,suppig.net
   - DOMAIN-SUFFIX,supremecourt.gov
   - DOMAIN-SUFFIX,suprememastertv.com
@@ -33459,6 +33470,7 @@ payload:
   - DOMAIN-SUFFIX,tagwa.org.au
   - DOMAIN-SUFFIX,tagwalk.com
   - DOMAIN-SUFFIX,tahr.org.tw
+  - DOMAIN-SUFFIX,taiav.com
   - DOMAIN-SUFFIX,tails.net
   - DOMAIN-SUFFIX,taipeisociety.org
   - DOMAIN-SUFFIX,taipeitimes.com
@@ -33468,6 +33480,7 @@ payload:
   - DOMAIN-SUFFIX,taiwancon.com
   - DOMAIN-SUFFIX,taiwandaily.net
   - DOMAIN-SUFFIX,taiwandc.org
+  - DOMAIN-SUFFIX,taiwanembassy.org
   - DOMAIN-SUFFIX,taiwanhot.net
   - DOMAIN-SUFFIX,taiwanjustice.com
   - DOMAIN-SUFFIX,taiwanjustice.net
@@ -34558,6 +34571,7 @@ payload:
   - DOMAIN-SUFFIX,wsj.net
   - DOMAIN-SUFFIX,wsjhk.com
   - DOMAIN-SUFFIX,wtbn.org
+  - DOMAIN-SUFFIX,wtfpass.com
   - DOMAIN-SUFFIX,wtfpeople.com
   - DOMAIN-SUFFIX,wuerkaixi.com
   - DOMAIN-SUFFIX,wufafangwen.com
