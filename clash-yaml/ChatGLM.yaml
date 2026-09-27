@@ -1,0 +1,6 @@
+# Custom rules for ChatGLM
+# Generated at 2026-09-27 22:28:28
+payload:
+  - DOMAIN-SUFFIX,bigmodel.cn
+  - DOMAIN-SUFFIX,chatglm.cn
+  - DOMAIN-SUFFIX,z.ai

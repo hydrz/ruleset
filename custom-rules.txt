@@ -152,3 +152,7 @@ CloudflareTunnel.list + IP-CIDR6,2606:4700:a9::9/128
 CloudflareTunnel.list + IP-CIDR6,2606:4700:a9::10/128
 
 Claude.list + DOMAIN-SUFFIX,claude.com
+
+ChatGLM.list + DOMAIN-SUFFIX,bigmodel.cn
+ChatGLM.list + DOMAIN-SUFFIX,chatglm.cn
+ChatGLM.list + DOMAIN-SUFFIX,z.ai
