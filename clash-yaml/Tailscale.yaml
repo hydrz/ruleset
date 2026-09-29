@@ -1,5 +1,5 @@
 # Custom rules for Tailscale
-# Generated at 2026-09-27 22:28:28
+# Generated at 2026-09-29 03:14:30
 payload:
   - DOMAIN-SUFFIX,.tailscale.com
   - IP-CIDR,192.200.0.0/24
