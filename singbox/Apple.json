@@ -1186,7 +1186,6 @@
         "applepaysupplies.tv",
         "applewallet.com",
         "applewallet.tv",
-        "appsto.re",
         "appstore.co.id",
         "appstore.com",
         "appstore.hk",
@@ -1547,13 +1546,13 @@
         "applemusic.com",
         "apple-dns.net",
         "apple.news",
+        "appsto.re",
         "cdn-apple.com",
         "digicert.com",
         "apple-cloudkit.com",
         "apple-livephotoskit.com",
         "apzones.com",
-        "icloud-content.com.cn",
-        "icloud.cn"
+        "icloud-content.com.cn"
       ],
       "domain": [
         "apple-events.akamaized.net",
