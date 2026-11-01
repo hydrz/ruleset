@@ -1,5 +1,5 @@
 # Custom rules for Salad_No_Resolve
-# Generated at 2026-10-29 03:10:23
+# Generated at 2026-11-01 03:09:50
 payload:
   - DOMAIN-SUFFIX,.salad.io
   - DOMAIN-SUFFIX,.salad.com
